@@ -1,0 +1,11 @@
+item,value,source
+fy2027_consensus,29.26,"Nasdaq analyst earnings-forecast API, read 23 Nov 2026"
+fy2027_revisions_up_4wk,1,same
+fy2027_revisions_down_4wk,7,same
+fy2027_estimates,9,same
+q4_2026_consensus_now,6.02,"Nasdaq estimate-momentum API, read 23 Nov 2026"
+q4_2026_consensus_1wk_ago,6.02,same
+q4_2026_consensus_1mo_ago,6.33,same
+fy2026_consensus_now,23.52,same
+fy2026_consensus_1wk_ago,23.52,same
+fy2026_consensus_1mo_ago,23.86,same
