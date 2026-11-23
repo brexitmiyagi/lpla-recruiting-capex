@@ -1,0 +1,12 @@
+value bridge, $ a share:
+  start: no sweep change, no S&P markdown, median 13.56x: 454.73
+  mark client assets to the Nov 20 market: -43.74
+  25th-percentile multiple (13.56x to 11.54x): -61.22
+  cut the multiple for the higher cost of equity (to 10.85x): -20.84
+  weight the four sweep outcomes 25/35/25/15: -30.60
+  expected cost of the sweep lawsuit: -3.95
+  my 12-month value: 294.37; today's price 264.56
+Osaic-level fix: give-back $71m a year pre-tax, 13% of today's DCA fee
+SELL threshold under my rule (weighted total return below -5%): value below $250.13
+cases: A $324.98 (+23.3% with the dividend), B $317.22 (+20.4% with the dividend), C2 $274.27 (+4.1% with the dividend), C $223.57 (-15.0% with the dividend)
+if a Q4 fee cut takes 'no change' off the table (weights 0/40/35/25): $278.77 (+5.8%)

@@ -8,3 +8,8 @@ is it over? the last two quarters grew +3.7% and +2.9%, against +18.4%, +12.2% a
 caveat: 'extra' depends on the trend I take out; at 2% a quarter instead the extra is larger, at 4% smaller
   trend 2%: wave 2 about 0.60m accounts, $1.31 a share after tax
   trend 4%: wave 2 about 0.50m accounts, $1.10 a share after tax
+before either wave (2024Q1 to 2024Q3): added 0.12m accounts and $0.3bn, about $2,449 each, against $8,584 for accounts already there
+wave 1 (2024Q3 to 2025Q2): added 0.38m accounts and $1.5bn, about $3,994 each, against $7,936 for accounts already there
+wave 2 (2025Q2 to 2026Q1): added 0.69m accounts and $3.9bn, about $5,612 each, against $6,972 for accounts already there
+since (2026Q1 to 2026Q3): added 0.15m accounts and $0.5bn, about $3,337 each, against $6,548 for accounts already there
+result: in every period the added accounts are smaller than the book, and wave 2's were the LARGEST of the four, so the balance test doesn't single out SEP/SIMPLE-sized accounts. It neither confirms nor rules out the eligibility story; the attribution rests on the timing and the documents. (Balances also move with markets and cash sorting.)
