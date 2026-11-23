@@ -56,6 +56,10 @@ checks = {
     "dca_fix_costs.py": ["$557m", "$5.42 a share, 22%", "$2.43-$3.22", "$4.75 a share"],
     "quarterly_estimates.py": ["adj EPS $5.32 vs consensus $6.02 (-12%)", "adj EPS $6.32 vs consensus $7.64 (-17%)"],
     "peer_multiples.py": ["SCHW: 11.6x", "RJF: 11.0x", "LPLA: 9.0x", "78%"],
+    "fed_path.py": ["Q1 27 +36, Q2 27 +51, Q3 27 +73, Q4 27 +80", "about 2.4 hikes"],
+    "market_path_value.py": ["2027 EPS $25.98", "weighted $316.10", "+19.9% with the dividend", "case C -9.7%", "$520m a year pre-tax, 93% of today's DCA fee, 81%", "$+21.69", "51% of today's DCA fee", "88% of today's", "99% of today's"],
+    "dca_eligibility.py": ["+129% for implied DCA accounts", "about +31%", "+28% in a quarter", "$13.50", "-12% in Q4 2025", "103% of fed funds", "117% of fed funds"],
+    "dca_nowcast.py": ["$143.8m", "$145.9m", "374 bps", "(-1.2%)", "(+0.3%)", "$131.6m"],
     "whats_priced.py": ["$286m a year pre-tax, 51% of the DCA fee", "118% of the DCA fee", "(-40.11 a share)", "(-8.38 a share)", "(-28.46 a share)"],
     "kpi_and_capital.py": ["2.9% (-0.9 pt)", "2.2% (-0.2 pt)", "$50.0bn", "$4,756", "$900m", "+105 bp", "average $319.87", "-17.3%", "2.68x"],
 }

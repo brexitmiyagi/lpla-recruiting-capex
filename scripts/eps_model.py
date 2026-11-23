@@ -18,6 +18,7 @@ ASSUMPTIONS = dict(
     q4_payout_step=0.004,         # Q4 guide: payout rate up ~40 bps
     q4_client_cash_yield_step=0.0014,  # ICA +~20 bps on ~70% of bank sweep
     fed_change_bp=0,              # base: no further Fed moves
+    fed_path_bp=None,             # or a list of 9 quarterly changes vs today's 3.88% (fed_path.py: what the bill and note curve implies); overrides fed_change_bp
     floating_ica_share=0.35, ica_share_of_cash=0.70,
     dca_share_of_cash=16.0 / 54.8,  # DCA fee is a per-account fee indexed to the fed funds target (10-K, ADV brochure); it now moves ~1:1 with funds
     dca_fed_beta=0.94,            # Q3 2026 DCA fee yield 346 bps / fed funds 367 bps
@@ -58,7 +59,8 @@ def run(a=None, verbose=False):
         assets_prev = assets; assets = assets * (1 + g); avg = (assets + assets_prev) / 2
         if i == 0: avg *= (1 + a["initial_asset_shock"] / 2) / (1 + a["initial_asset_shock"])  # October was flat, so Q4 only carries about half the drop
         if i == 0: cash_yield += a["q4_client_cash_yield_step"] + a["q4_fed_vs_q3_bp"] / 1e4 * a["dca_fed_beta"] * a["dca_share_of_cash"]
-        cy = cash_yield + a["fed_change_bp"] / 1e4 * (a["floating_ica_share"] * a["ica_share_of_cash"] + a["dca_fed_beta"] * a["dca_share_of_cash"]) + a["ica_fixed_reprice_bp_per_q"] * i / 1e4 * (1 - a["floating_ica_share"]) * a["ica_share_of_cash"]
+        fch = a["fed_change_bp"] if a["fed_path_bp"] is None else a["fed_path_bp"][i] * (0.11 / 0.25 if i == 0 else 1.0)  # Q4: only the last six weeks are still open
+        cy = cash_yield + fch / 1e4 * (a["floating_ica_share"] * a["ica_share_of_cash"] + a["dca_fed_beta"] * a["dca_share_of_cash"]) + a["ica_fixed_reprice_bp_per_q"] * i / 1e4 * (1 - a["floating_ica_share"]) * a["ica_share_of_cash"]
         yr_n = 0 if q.endswith("26") else (1 if q.endswith("27") else 2)
         drift_acc += a["cash_drift_yr"][yr_n] / 4
         cash_bal = avg * max(a["cash_share_of_assets"] + drift_acc - a["cash_drift_yr"][yr_n] / 8 + a["cash_share_drift_q"] * (i + 1), 0.0)
