@@ -34,7 +34,6 @@ risk table on the base, weighted $294.37:
   cash drain at twice my pace: $280.83 (-13.54 a share)
   DCA fee cut 25% on top of each case: $280.99 (-13.38 a share)
   DCA fee cut 50% on top of each case: $267.61 (-26.76 a share)
-  eligibility wave unwound (about 0.54m accounts, $126m a year; dca_widening.py): $282.27 (-12.11 a share)
   lawsuit dismissed: $298.32 (+3.95 a share)
   lawsuit ends in full DCA disgorgement: $282.46 (-11.91 a share)
   futures path without the multiple hit: $313.27 (+18.90 a share)

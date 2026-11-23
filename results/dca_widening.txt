@@ -1,9 +1,11 @@
 quarterly growth in implied accounts: 2024Q2 +6.1%, 2024Q3 +5.4%, 2024Q4 +2.2%, 2025Q1 +14.7%, 2025Q2 +12.9%, 2025Q3 +18.4%, 2025Q4 +12.2%, 2026Q1 +9.4%, 2026Q2 +3.7%, 2026Q3 +2.9%
 trend since the wave (Q2-Q3 2026 average): +3.3% a quarter
 before any of it (Q2-Q3 2024 average): +5.7% a quarter
-wave 1 (Atria's move onto LPL's platform, most likely): 1.16m (2024Q3) to 1.53m (2025Q2); trend alone would give 1.28m, so about 0.26m extra accounts, $60m a year before tax at $19.50 a month, $0.56 a share after tax, about $6 a share at 10.85x
-wave 2 (wider eligibility): 1.53m (2025Q2) to 2.23m (2026Q1); trend alone would give 1.69m, so about 0.54m extra accounts, $126m a year before tax at $19.50 a month, $1.17 a share after tax, about $13 a share at 10.85x
-wave 2 accounts are about 23% of today's 2.38m
+wave 1 (after Prudential Advisors moved onto LPL's platform in Nov 2024): 1.16m (2024Q3) to 1.53m (2025Q2); trend alone would give 1.28m, so about 0.26m extra accounts, $60m a year before tax at $19.50 a month, $0.56 a share after tax, about $6 a share at 10.85x
+wave 2 (starts the quarter Atria converted, July 2025; overlaps the wider eligibility): 1.53m (2025Q2) to 2.23m (2026Q1); trend alone would give 1.69m, so about 0.54m extra accounts, $126m a year before tax at $19.50 a month, $1.17 a share after tax, about $13 a share at 10.85x
+both waves: about 0.79m accounts, $186m a year before tax, $1.73 a share after tax
+DCA accounts as a share of all LPL client accounts: 12.3% in Q1 2024, 20.0% in Q3 2026, 21.6% without Commonwealth's ~0.9m (not converted until Nov 2026)
+wave 2 accounts are about 23% of today's 2.38m; both waves 33%
 is it over? the last two quarters grew +3.7% and +2.9%, against +18.4%, +12.2% and +9.4% in the wave
 caveat: 'extra' depends on the trend I take out; at 2% a quarter instead the extra is larger, at 4% smaller
   trend 2%: wave 2 about 0.60m accounts, $1.31 a share after tax
@@ -12,4 +14,10 @@ before either wave (2024Q1 to 2024Q3): added 0.12m accounts and $0.3bn, about $2
 wave 1 (2024Q3 to 2025Q2): added 0.38m accounts and $1.5bn, about $3,994 each, against $7,936 for accounts already there
 wave 2 (2025Q2 to 2026Q1): added 0.69m accounts and $3.9bn, about $5,612 each, against $6,972 for accounts already there
 since (2026Q1 to 2026Q3): added 0.15m accounts and $0.5bn, about $3,337 each, against $6,548 for accounts already there
-result: in every period the added accounts are smaller than the book, and wave 2's were the LARGEST of the four, so the balance test doesn't single out SEP/SIMPLE-sized accounts. It neither confirms nor rules out the eligibility story; the attribution rests on the timing and the documents. (Balances also move with markets and cash sorting.)
+result: in every period the added accounts are smaller than the book, and wave 2's were the LARGEST of the four, so the balance test doesn't single out SEP/SIMPLE-sized accounts. It neither confirms nor rules out the eligibility story. (Balances also move with markets and cash sorting.)
+ICA balances rose in Q3 and Q4 2025 (36.9bn, 41.0bn at quarter end), so there's no sign of accounts leaving the ICA for the DCA either
+  a $3,000 account earns LPL about $106 a year in the ICA and $234 in the DCA (+128)
+  a $5,600 account earns LPL about $197 a year in the ICA and $234 in the DCA (+37)
+  a $6,650 account earns LPL about $234 a year in the ICA and $234 in the DCA (-0)
+  a $10,000 account earns LPL about $352 a year in the ICA and $234 in the DCA (-118)
+  break-even balance: $6,648. Below it, the DCA pays LPL more
