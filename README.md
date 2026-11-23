@@ -42,6 +42,7 @@ Python 3, standard library only. From any folder:
     python scripts/dca_widening.py
     python scripts/consensus_gap.py
     python scripts/value_bridge.py
+    python scripts/adv_clients.py
     python scripts/build_workbook.py
     python scripts/event_study.py
     python scripts/options_term.py
@@ -185,7 +186,9 @@ dca_eligibility.py lays out the DCA eligibility wording from LPL's booklets and 
 
 dca_nowcast.py estimates Q4 2026 DCA revenue from LPL's monthly DCA balances before LPL reports. Put November and December in at the top when they come out and rerun. It backtests the same method on Q2 and Q3 2026.
 
-dca_widening.py sizes the two waves in the implied DCA account count against the run-rate since (3.3% a quarter): about 260,000 accounts in Q4 2024-Q2 2025, most likely Atria, and about 540,000 in Q3 2025-Q1 2026, which lines up with the wider eligibility. The second is worth about $126m a year before tax at $19.50 a month, $1.17 a share after tax. It also shows the answer at a 2% and 4% trend.
+dca_widening.py sizes the two waves in the implied DCA account count against the run-rate since (3.3% a quarter): about 260,000 accounts in Q1-Q2 2025, after Prudential Advisors moved onto LPL's platform in November 2024, and about 540,000 in Q3 2025-Q1 2026. The second starts the quarter Atria converted (July 2025, per LPL's 10-Q) and overlaps the eligibility change, so I can't split it. Both waves together are about 790,000 accounts, $186m a year before tax, $1.73 a share after tax. It also shows the answer at a 2% and 4% trend.
+
+adv_clients.py reads LPL's Form ADV client counts by type (Item 5D) from the SEC's monthly adviser files for four year ends. Pension and profit sharing plan clients grew 13.6% in 2025, the same pace as 2024, and number about 10,000, so employer plans can't explain the 2025 jump in DCA accounts.
 
 dca_widening.py also tests what balance the added accounts brought. It doesn't separate the explanations: every period's new accounts are smaller than the book, and the second wave's were the largest of the four, so I say the attribution rests on timing and documents.
 
@@ -236,6 +239,8 @@ My earlier versions held the Fed flat while the 2-year was 88 bp over fed funds.
 Earlier versions said the acquisitions explained the jump in DCA accounts. Commonwealth wasn't on LPL's platform until November 2026, so it can't have. One version then said the eligibility change explained all of it; it fits the late-2025 jump, and the early-2025 rise is most likely Atria.
 
 Earlier versions treated the April 2023 fee table as the only one. The July 2024 booklet has a lower one. dca_eligibility.py shows why the data don't fit it.
+
+One version said the first wave was most likely Atria and the second was the eligibility change. LPL's 10-Qs say Atria converted in July 2025, the first quarter of the second wave, and Prudential Advisors moved in November 2024. So both waves come from conversions plus the eligibility change, and I don't split them.
 
 Things I couldn't do: I couldn't get LPL's current DCA fee schedule or the names of its ICA banks (lpl.com refused automated fetches), I couldn't get Raymond James, Ameriprise, Stifel or Cetera advisory rates, and I didn't build advisor-level flows from BrokerCheck. Osaic doesn't publish advisor counts.
 
