@@ -39,6 +39,8 @@ Python 3, standard library only. From any folder:
     python scripts/market_path_value.py
     python scripts/dca_eligibility.py
     python scripts/dca_nowcast.py
+    python scripts/dca_widening.py
+    python scripts/consensus_gap.py
     python scripts/build_workbook.py
     python scripts/event_study.py
     python scripts/options_term.py
@@ -181,6 +183,10 @@ market_path_value.py is the valuation the post uses: the futures path, with the 
 dca_eligibility.py lays out the DCA eligibility wording from LPL's booklets and its 10-K and 10-Qs, tests the second, lower fee table in the July 2024 booklet against the data, and works out where the banks' payment on a small account stops covering LPL's flat fee.
 
 dca_nowcast.py estimates Q4 2026 DCA revenue from LPL's monthly DCA balances before LPL reports. Put November and December in at the top when they come out and rerun. It backtests the same method on Q2 and Q3 2026.
+
+dca_widening.py sizes the two waves in the implied DCA account count against the run-rate since (3.3% a quarter): about 260,000 accounts in Q4 2024-Q2 2025, most likely Atria, and about 540,000 in Q3 2025-Q1 2026, which lines up with the wider eligibility. The second is worth about $126m a year before tax at $19.50 a month, $1.17 a share after tax. It also shows the answer at a 2% and 4% trend.
+
+consensus_gap.py walks my 2027 EPS on the futures path ($26.00) toward consensus ($29.26) one choice at a time. Undoing my S&P markdown is most of it.
 
 ## Things to be careful with
 
