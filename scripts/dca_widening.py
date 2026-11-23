@@ -1,6 +1,7 @@
 # How many DCA accounts the 2025 waves added, what they're worth to LPL, and whether it's over.
-# Three things overlap: Prudential's move onto LPL's platform (Nov 2024), Atria's conversion (July 2025, per LPL's 10-Q)
-# and the wider DCA eligibility (between the July 2024 and October 2025 booklets). Public data can't split them.
+# Things overlap: Prudential's move onto LPL's platform (Nov 2024), Atria's conversion (July 2025, per LPL's 10-Q),
+# Commonwealth's cash entering LPL's reported sweep lines (Aug 2025, commonwealth_cash.py) and the wider DCA eligibility.
+# From Q3 2025 the implied count mixes in Commonwealth's cash, so the clean stretch is Q1 2024 to Q2 2025.
 # Method: implied accounts each quarter (dca_economics.py); take the recent run-rate (Q2-Q3 2026) as trend;
 # anything above trend in the waves is "extra".
 import io, contextlib
@@ -29,11 +30,11 @@ def wave(a, b, n, label):
           f"so about {extra/1e6:.2f}m extra accounts, ${pre_tax:.0f}m a year before tax at $19.50 a month, ${ps:.2f} a share after tax, about ${ps*pe:.0f} a share at {pe}x")
     return extra, ps
 w1 = wave("2024Q3", "2025Q2", 3, "wave 1 (after Prudential Advisors moved onto LPL's platform in Nov 2024)")
-w2 = wave("2025Q2", "2026Q1", 3, "wave 2 (starts the quarter Atria converted, July 2025; overlaps the wider eligibility)")
+w2 = wave("2025Q2", "2026Q1", 3, "wave 2 (Q3 2025 on: Commonwealth cash enters the DCA line in Aug 2025; overlaps Atria and the wider eligibility)")
 both = w1[0] + w2[0]
 print(f"both waves: about {both/1e6:.2f}m accounts, ${both*fee_yr/1e6:.0f}m a year before tax, ${both*fee_yr*(1-tax)/shares/1e6:.2f} a share after tax")
 acc_tot = {r['quarter']: float(r['total_client_accounts_m']) for r in rows('total_client_accounts.csv')}
-print(f"DCA accounts as a share of all LPL client accounts: {acc['2024Q1']/1e6/acc_tot['2024Q1']:.1%} in Q1 2024, {acc['2026Q3']/1e6/acc_tot['2026Q3']:.1%} in Q3 2026, {acc['2026Q3']/1e6/(acc_tot['2026Q3']-0.9):.1%} without Commonwealth's ~0.9m (not converted until Nov 2026)")
+print(f"DCA accounts as a share of all LPL client accounts: {acc['2024Q1']/1e6/acc_tot['2024Q1']:.1%} in Q1 2024, {acc['2026Q3']/1e6/acc_tot['2026Q3']:.1%} in Q3 2026, (from Q3 2025 the DCA line likely includes Commonwealth cash; see commonwealth_cash.py)")
 tot = acc["2026Q3"]
 print(f"wave 2 accounts are about {w2[0]/tot:.0%} of today's {tot/1e6:.2f}m; both waves {both/tot:.0%}")
 print(f"is it over? the last two quarters grew {g['2026Q2']:+.1%} and {g['2026Q3']:+.1%}, against {g['2025Q3']:+.1%}, {g['2025Q4']:+.1%} and {g['2026Q1']:+.1%} in the wave")
@@ -63,3 +64,7 @@ ica_bps = 352; fee = 19.50 * 12
 for b in (3000, 5600, 6650, 10000):
     print(f"  a ${b:,} account earns LPL about ${b*ica_bps/1e4:.0f} a year in the ICA and ${fee:.0f} in the DCA ({fee - b*ica_bps/1e4:+.0f})")
 print(f"  break-even balance: ${fee/(ica_bps/1e4):,.0f}. Below it, the DCA pays LPL more")
+
+# the clean stretch, before Commonwealth: Q1 2024 to Q2 2025
+bal_c = {r["quarter"]: float(r["dca_avg_bn"]) for r in rows("sweep_yields_quarterly.csv") if r["dca_avg_bn"]}
+print(f"clean stretch Q1 2024 to Q2 2025: accounts {acc['2024Q1']/1e6:.2f}m to {acc['2025Q2']/1e6:.2f}m ({acc['2025Q2']/acc['2024Q1']-1:+.0%}), average balances ${bal_c['2024Q1']:.1f}bn to ${bal_c['2025Q2']:.1f}bn ({bal_c['2025Q2']/bal_c['2024Q1']-1:+.0%})")

@@ -1,6 +1,6 @@
 # Why did implied DCA accounts rise 129% when LPL's total accounts rose 42%?
 # 1) the eligibility wording, from LPL's own booklets and SEC filings
-# 2) Commonwealth: its clients weren't on LPL's platform until the mid-November 2026 conversion, so none of it is in the DCA through Q3
+# 2) Commonwealth: closed 1 Aug 2025; LPL says $4bn of its client cash is in LPL's reported client cash from then (see commonwealth_cash.py)
 # 3) which fee schedule was in force (there's a second, lower one in the July 2024 booklet)
 # 4) the small-account arithmetic: where the banks' payment stops covering LPL's flat fee
 import datetime as dt, io, contextlib
@@ -9,7 +9,7 @@ with contextlib.redirect_stdout(io.StringIO()):
     import dca_economics as D
 acc0 = {r['quarter']: float(r['total_client_accounts_m']) for r in rows('total_client_accounts.csv')}
 
-print("Commonwealth's advisors converted to LPL's platform over 13-16 November 2026 (InvestmentNews 16 Nov, WealthManagement.com 18 Nov), so none of its accounts were in the DCA through Q3")
+print("Commonwealth closed 1 Aug 2025 and its accounts converted in Nov 2026, but LPL says $4bn of its client cash has been in LPL's reported client cash since Q3 2025, so DCA figures from Q3 2025 likely include some of it (commonwealth_cash.py)")
 print(f"LPL total accounts rose {acc0['2026Q3']/acc0['2024Q1']-1:+.0%}; take out the Q3 2025 step when Commonwealth closed ({acc0['2025Q3']-acc0['2025Q2']:.1f}m, some of it organic) and it's about {(acc0['2026Q3']-(acc0['2025Q3']-acc0['2025Q2']))/acc0['2024Q1']-1:+.0%}, against +129% for implied DCA accounts")
 print("eligibility wording over time:")
 for r in rows("dca_eligibility_timeline.csv"):
