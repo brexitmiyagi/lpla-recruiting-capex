@@ -94,7 +94,8 @@ rows = [("S&P 500 -10% (client assets -5%)", dict(initial_asset_shock=-0.045 - 0
         ("Fed 25 bp above the futures path", None, 25),
         ("cash drain at twice my pace", dict(cash_drift_yr=(0.0, -0.002, -0.001)), 0),
         ("DCA fee cut 25% on top of each case", dict(sweep_giveback_extra=W.dca_fee_rev * 0.25), 0),
-        ("DCA fee cut 50% on top of each case", dict(sweep_giveback_extra=W.dca_fee_rev * 0.50), 0)]
+        ("DCA fee cut 50% on top of each case", dict(sweep_giveback_extra=W.dca_fee_rev * 0.50), 0),
+        ("eligibility wave unwound (about 0.54m accounts, $126m a year; dca_widening.py)", dict(sweep_giveback_extra=126.0), 0)]
 for lab, ex, sh in rows:
     v = weighted_base(ex, sh); print(f"  {lab}: ${v:.2f} ({v-b0:+.2f} a share)")
 for lab, l in (("lawsuit dismissed", 0.0), ("lawsuit ends in full DCA disgorgement", 15.86)):
