@@ -1,10 +1,10 @@
 # lpla-recruiting-capex
 
-This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "The Cash Fee Grew Because The Program Grew, And That's Done". Prices are the November 20, 2026 close.
+This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "The Price Already Gives Away More Than Half The IRA Cash Fee". Prices are the November 20, 2026 close.
 
 The short version. The banks holding LPL's advisory IRA cash (the Deposit Cash Account) now pay at least the full fed funds rate for it, about 102% in Q3 2026 against about 81% in Q3 2024, while the client still gets about 0.30%. LPL takes the rest through a flat monthly fee per account set by the fed funds target, and as the average account shrank (about $8,584 to $6,346) its cut of each dollar rose from 76% to 94% of fed funds without the fee schedule changing. Valued at LPLA's own 25th-percentile forward multiple since 2017 (11.54x), four sweep outcomes weighted 25/35/25/15 give $294, 11.3% above the November 20 close, a HOLD under my rules. At the median multiple (13.56x) it's $347.
 
-Later versions changed three things. LPL widened the DCA from IRAs only to IRAs and retirement plan accounts, SEP and SIMPLE included, between July 2024 and October 2025, which fits the late-2025 jump in accounts (the early-2025 rise is most likely Atria). The base case now uses the Fed path in fed funds futures (CME FedWatch, 23 Nov 2026: a December hike, about 61 bp higher on average in 2027), with the cost of equity and the multiple moved with it (9.54% to 10.09%, 11.54x to 10.85x). Higher rates lift EPS and cut the multiple by about the same, so the weighted value stays $294 and the price assumes LPL gives up 57% of the DCA fee. Without the multiple cut it's $313, still a HOLD.
+Later versions changed four things. The base case uses the Fed path in fed funds futures (CME FedWatch, 23 Nov 2026), with the cost of equity and the multiple moved with it, which leaves the weighted value at $294 (or $313 without the multiple cut) and the price assuming LPL gives up 57% of the DCA fee. LPL widened DCA eligibility to retirement plan accounts, SEP and SIMPLE IRAs between July 2024 and October 2025; its Form ADV says employer plan clients number about 10,000 and grew at the usual pace, and the change never came up on six earnings calls. Commonwealth's client cash has been inside LPL's reported sweep lines since August 2025, so I only rely on the implied DCA account count through Q2 2025. And the 25th-percentile multiple is checked against the 2024 sweep scare, when LPLA traded at 10.7x to 11.7x.
 
 ## How to run it
 
@@ -43,6 +43,9 @@ Python 3, standard library only. From any folder:
     python scripts/consensus_gap.py
     python scripts/value_bridge.py
     python scripts/adv_clients.py
+    python scripts/commonwealth_cash.py
+    python scripts/multiple_scare.py
+    python scripts/consensus_check.py
     python scripts/build_workbook.py
     python scripts/event_study.py
     python scripts/options_term.py
@@ -188,6 +191,8 @@ dca_nowcast.py estimates Q4 2026 DCA revenue from LPL's monthly DCA balances bef
 
 dca_widening.py sizes the two waves in the implied DCA account count against the run-rate since (3.3% a quarter): about 260,000 accounts in Q1-Q2 2025, after Prudential Advisors moved onto LPL's platform in November 2024, and about 540,000 in Q3 2025-Q1 2026. The second starts the quarter Atria converted (July 2025, per LPL's 10-Q) and overlaps the eligibility change, so I can't split it. Both waves together are about 790,000 accounts, $186m a year before tax, $1.73 a share after tax. It also shows the answer at a 2% and 4% trend.
 
+commonwealth_cash.py lays out LPL's monthly client cash lines around the Commonwealth closing (June-September 2025, from LPL's Q3 2025 release). multiple_scare.py is LPLA's forward P/E through the 2024 sweep scare. consensus_check.py is the consensus revision count and the change over a week and a month (Nasdaq, 23 Nov 2026).
+
 adv_clients.py reads LPL's Form ADV client counts by type (Item 5D) from the SEC's monthly adviser files for four year ends. Pension and profit sharing plan clients grew 13.6% in 2025, the same pace as 2024, and number about 10,000, so employer plans can't explain the 2025 jump in DCA accounts.
 
 dca_widening.py also tests what balance the added accounts brought. It doesn't separate the explanations: every period's new accounts are smaller than the book, and the second wave's were the largest of the four, so I say the attribution rests on timing and documents.
@@ -236,7 +241,7 @@ My earlier Fed sensitivity only counted the floating part of the ICA. The DCA fe
 
 My earlier versions held the Fed flat while the 2-year was 88 bp over fed funds. Then I ran the curve's path without touching the multiple and got $316, which raised earnings with rates but never the discount rate. The base now uses fed funds futures and moves the cost of equity and the multiple with them: $294.
 
-Earlier versions said the acquisitions explained the jump in DCA accounts. Commonwealth wasn't on LPL's platform until November 2026, so it can't have. One version then said the eligibility change explained all of it; it fits the late-2025 jump, and the early-2025 rise is most likely Atria.
+Earlier versions said Commonwealth wasn't in the DCA numbers until its November 2026 conversion, and one sized a coming 'Commonwealth wave'. That was wrong. LPL's Q3 2025 release says $4 billion of Commonwealth client cash has been in its reported client cash since the August 2025 closing, and the DCA line jumped $1.4 billion that August after no change in July (commonwealth_cash.py). So from Q3 2025 the DCA line and my implied account count mix in Commonwealth's cash, and I only lean on the count through Q2 2025. Earlier versions also tied the account waves to Atria and then to the eligibility change. The public numbers can't split them, and I no longer try.
 
 Earlier versions treated the April 2023 fee table as the only one. The July 2024 booklet has a lower one. dca_eligibility.py shows why the data don't fit it.
 
