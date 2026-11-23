@@ -1,0 +1,18 @@
+forward P/E on realised EPS, 2017Q4 to 2025Q3 (32 quarters): mean 13.34x, median 13.56x, 25th pct 11.54x, 75th pct 15.10x, low 8.5x, high 19.7x
+fit on fed funds and cash share: R-squared 0.20; correlation with fed funds 0.16, with cash share -0.41
+so the funds rate explains almost none of LPLA's multiple; I use the plain historical range instead of the fit
+  funds under 1%: median 13.88x over 9 quarters
+  funds 1% or more: median 13.34x over 23 quarters
+2016: trailing GAAP P/E 16.5x, fed funds 0.55%
+2017: trailing GAAP P/E 22.1x, fed funds 1.33%
+2018: trailing GAAP P/E 12.6x, fed funds 2.40%
+2019: trailing GAAP P/E 13.9x, fed funds 1.55%
+2020: trailing GAAP P/E 17.8x, fed funds 0.09%
+2021: trailing GAAP P/E 28.4x, fed funds 0.07%
+2022: trailing GAAP P/E 20.8x, fed funds 4.33%
+2023: trailing GAAP P/E 16.6x, fed funds 5.33%
+2024: trailing GAAP P/E 23.3x, fed funds 4.33%
+2025: trailing GAAP P/E 32.7x, fed funds 3.64%
+today: 15.0x TTM GAAP EPS of $17.64
+LPLA Q3 2026: interest/sweep income = 95% of pre-tax
+SCHW Q3 2026: interest/sweep income = 92% of pre-tax

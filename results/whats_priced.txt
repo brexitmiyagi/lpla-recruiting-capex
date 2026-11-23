@@ -1,0 +1,18 @@
+at 11.54x (no rerating): no change is worth $295.06 today; the price assumes a give-back of $286m a year pre-tax, 51% of the DCA fee
+at 13.56x (historical median): no change is worth $347.14 today; the price assumes a give-back of $659m a year pre-tax, 118% of the DCA fee
+base weighted value $294.41
+  S&P 500 -10% (client assets -5%): $254.30 (-40.11 a share)
+  S&P 500 +10%: $334.52 (+40.11 a share)
+  Fed -25 bp: $286.03 (-8.38 a share)
+  Fed +25 bp: $302.79 (+8.38 a share)
+  cash drain at double my pace (0.2 pt in 2027, 0.1 pt in 2028): $281.36 (-13.05 a share)
+  DCA fee cut 25% on top of each case (or a schedule change of that size): $280.18 (-14.23 a share)
+  DCA fee cut 50% on top of each case (or a schedule change of that size): $265.95 (-28.46 a share)
+  litigation dismissed: $298.36 (+3.95 a share)
+  litigation: full DCA disgorgement: $282.50 (-11.91 a share)
+value today against the share of the DCA fee given up:
+  0%: at 11.54x $295.06, at 13.56x $347.14
+  25%: at 11.54x $280.21, at 13.56x $329.70
+  50%: at 11.54x $265.37, at 13.56x $312.26
+  75%: at 11.54x $250.52, at 13.56x $294.81
+  100%: at 11.54x $235.68, at 13.56x $277.37

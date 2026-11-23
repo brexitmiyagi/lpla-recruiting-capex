@@ -1,0 +1,43 @@
+quarter: fed funds avg, ICA fee yield (share of funds), DCA fee yield (share of funds)
+  2021Q3: funds 9 bps, ICA 101, DCA 24 (rates near zero, ratio meaningless)
+  2021Q4: funds 8 bps, ICA 101, DCA 19 (rates near zero, ratio meaningless)
+  2022Q1: funds 12 bps, ICA 102, DCA 24 (rates near zero, ratio meaningless)
+  2022Q2: funds 73 bps, ICA 134 (184%), DCA 63 (86%)
+  2022Q3: funds 219 bps, ICA 212 (97%), DCA 157 (72%)
+  2022Q4: funds 366 bps, ICA 291 (80%), DCA 254 (69%)
+  2023Q1: funds 452 bps, ICA 320 (71%), DCA 318 (70%)
+  2023Q2: funds 499 bps, ICA 322 (65%), DCA 334 (67%)
+  2023Q3: funds 526 bps, ICA 318 (60%), DCA 357 (68%)
+  2023Q4: funds 533 bps, ICA 317 (59%), DCA 379 (71%)
+  2024Q1: funds 533 bps, ICA 323 (61%), DCA 378 (71%)
+  2024Q2: funds 533 bps, ICA 318 (60%), DCA 399 (75%)
+  2024Q3: funds 527 bps, ICA 332 (63%), DCA 400 (76%)
+  2024Q4: funds 466 bps, ICA 335 (72%), DCA 340 (73%)
+  2025Q1: funds 433 bps, ICA 337 (78%), DCA 356 (82%)
+  2025Q2: funds 433 bps, ICA 342 (79%), DCA 381 (88%)
+  2025Q3: funds 430 bps, ICA 351 (82%), DCA 401 (93%)
+  2025Q4: funds 390 bps, ICA 341 (87%), DCA 359 (92%)
+  2026Q1: funds 364 bps, ICA 336 (92%), DCA 338 (93%)
+  2026Q2: funds 363 bps, ICA 336 (93%), DCA 341 (94%)
+  2026Q3: funds 367 bps, ICA 352 (96%), DCA 346 (94%)
+2025Q1 to 2025Q3: funds 433 -> 430 bps, DCA fee yield 356 -> 401 bps
+2024Q3 to 2026Q3: funds 527 -> 367 bps (-160), DCA fee yield 400 -> 346 bps (-54)
+implied DCA accounts at $18 a month: 2.44m; average balance $6,194
+a $5,000 DCA balance pays $216 a year in fee, 4.3% of the balance
+monthly client cash as % of client assets:
+  2025-10: 2.34%
+  2025-11: 2.31%
+  2025-12: 2.57%
+  2026-01: 2.35%
+  2026-02: 2.30%
+  2026-03: 2.53%
+  2026-04: 2.24%
+  2026-05: 2.15%
+  2026-06: 2.22%
+  2026-07: 2.13%
+  2026-08: 2.09%
+  2026-09: 2.21%
+  2026-10: 2.18%
+Oct 2025 -> Oct 2026: 2.34% -> 2.18%
+money market sweep fell from $4.1bn to $0.9bn, partly a reclassification: $1.6bn moved to purchased money funds in Nov 2025 and $0.5bn in Feb 2026 (LPL footnote)
+what LPL earns on purchased money funds: 6 to 9 bps a quarter in 2021-22 and 20 bps in Q3 2020, the last periods it disclosed (Q3 2021-Q1 2022 releases). I use 10 bps.

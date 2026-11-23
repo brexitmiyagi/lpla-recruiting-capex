@@ -1,0 +1,31 @@
+the schedule is close to linear: about $60.4 a year per account for each 1 point of FFT (e.g. $18.25/month at 350-375 bps, $27.00 at 525-550)
+December 2025 sheet: $18.00 a month; the 2023 schedule gives $18.25 at the Dec 2025 FFT of 3.50-3.75%
+quarter: fed funds, DCA fee yield, schedule fee/month, implied accounts, average balance, implied bank payment as % of fed funds
+  2024Q1: funds 533 bps, fee yield 378 bps (71%), $27.00/month, 1.04m accounts, $8,584 average, banks pay at least 76% of funds
+  2024Q2: funds 533 bps, fee yield 399 bps (75%), $27.00/month, 1.10m accounts, $8,185 average, banks pay at least 80% of funds
+  2024Q3: funds 527 bps, fee yield 400 bps (76%), $26.67/month, 1.16m accounts, $7,936 average, banks pay at least 81% of funds
+  2024Q4: funds 466 bps, fee yield 340 bps (73%), $23.59/month, 1.19m accounts, $8,268 average, banks pay at least 78% of funds
+  2025Q1: funds 433 bps, fee yield 356 bps (82%), $22.00/month, 1.36m accounts, $7,503 average, banks pay at least 89% of funds
+  2025Q2: funds 433 bps, fee yield 381 bps (88%), $22.00/month, 1.53m accounts, $6,972 average, banks pay at least 95% of funds
+  2025Q3: funds 430 bps, fee yield 401 bps (93%), $21.82/month, 1.82m accounts, $6,494 average, banks pay at least 100% of funds
+  2025Q4: funds 390 bps, fee yield 359 bps (92%), $19.61/month, 2.04m accounts, $6,524 average, banks pay at least 100% of funds
+  2026Q1: funds 364 bps, fee yield 338 bps (93%), $18.25/month, 2.23m accounts, $6,548 average, banks pay at least 101% of funds
+  2026Q2: funds 363 bps, fee yield 341 bps (94%), $18.25/month, 2.31m accounts, $6,445 average, banks pay at least 102% of funds
+  2026Q3: funds 367 bps, fee yield 346 bps (94%), $18.44/month, 2.38m accounts, $6,346 average, banks pay at least 102% of funds
+so LPL's share of funds rose because the average account shrank under a flat per-account fee, not because the schedule changed
+a 25 bp cut takes the fee down one step (about $1.25 a month), about 7% of DCA revenue at today's level
+LPL total client accounts 8.4m (Q1 2024) -> 11.9m (Q3 2026), +42%, with Atria and Commonwealth; implied DCA accounts rose faster
+implied account change quarter to quarter, with the fee change in that quarter:
+  2024Q2: fee +0.0%, implied accounts +6.1%
+  2024Q3: fee -1.2%, implied accounts +5.4%
+  2024Q4: fee -11.6%, implied accounts +2.2%
+  2025Q1: fee -6.7%, implied accounts +14.7%
+  2025Q2: fee +0.0%, implied accounts +12.9%
+  2025Q3: fee -0.8%, implied accounts +18.4%
+  2025Q4: fee -10.1%, implied accounts +12.2%
+  2026Q1: fee -6.9%, implied accounts +9.4%
+  2026Q2: fee +0.0%, implied accounts +3.7%
+  2026Q3: fee +1.0%, implied accounts +2.9%
+Q4 2026 call: fee $19.50/month; at a $6,000 average balance the DCA fee yield is 390 bps, 101% of 3.88% fed funds
+Q4 2026 call: fee $19.50/month; at a $6,300 average balance the DCA fee yield is 371 bps, 96% of 3.88% fed funds
+Q4 2026 call: fee $19.50/month; at a $6,600 average balance the DCA fee yield is 355 bps, 91% of 3.88% fed funds

@@ -1,0 +1,9 @@
+December 18, 2026: at-the-money implied vol 44.4%
+January 15, 2027: at-the-money implied vol 40.8%
+April 16, 2027: at-the-money implied vol 40.9%
+May 21, 2027: at-the-money implied vol 41.4%
+July 16, 2027: at-the-money implied vol 40.4%
+August 20, 2027: at-the-money implied vol 41.2%
+November 19, 2027: at-the-money implied vol 41.1%
+implied Q4-results move (April variance less January's run rate): 0.9%
+January skew: $230 put 45.8%, at the money 40.8%, $290 call 38.3%

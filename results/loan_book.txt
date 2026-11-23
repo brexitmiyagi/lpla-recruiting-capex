@@ -1,0 +1,24 @@
+2016-12-31: loans $194.5m, per advisor $14k
+2017-12-31: loans $219.2m, per advisor $14k
+2018-12-31: loans $298.8m, per advisor $19k
+2019-12-31: loans $441.7m, per advisor $27k
+2020-12-31: loans $587.6m, per advisor $34k
+2021-12-31: loans $963.9m, per advisor $48k, 8.0 bps of client assets
+2022-12-31: loans $1,123.0m, per advisor $53k, 10.1 bps of client assets
+2023-12-31: loans $1,479.7m, per advisor $65k, 10.9 bps of client assets
+2024-12-31: loans $2,281.1m, per advisor $79k, 13.1 bps of client assets
+2025-12-31: loans $3,681.5m, per advisor $114k, 15.5 bps of client assets
+2026-09-30: loans $3,979.8m, per advisor $122k, 15.5 bps of client assets
+precise: end-2025 15.53 bps, Sep 2026 15.52 bps
+growth 2018 -> Q3 2026: 13.3x
+loan book / equity at Sep 30 2026 ($5,812.3m): 68%
+2023: net charge-offs $10.6m, allowance $13.0m
+2024: net charge-offs $5.1m, allowance $17.9m
+2025: net charge-offs $2.7m, allowance $17.2m
+advisor revenue yield on assets: 61.4 bps (Q3 25), 64.4 bps (Q3 26)
+TA as % of a year's advisor revenue: 88 bps -> 143%, 117 bps -> 182%
+carry on 117 bps of TA at LPL 2029 notes 5.85%: 6.8 bps a year, 26% of the 25.9 bps gross ROA
+carry on 117 bps of TA at Osaic secured 6.75%: 7.9 bps a year, 30% of the 25.9 bps gross ROA
+carry on 117 bps of TA at Osaic unsecured 8.00%: 9.4 bps a year, 36% of the 25.9 bps gross ROA
+short interest % of shares: 3.1%
+my $310 vs lowest Street target $320 and average $366.40

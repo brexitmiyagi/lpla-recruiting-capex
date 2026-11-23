@@ -1,0 +1,20 @@
+Q3 client cash as a share of client assets, and purchased money funds:
+  2022: 6.4%, purchased money market funds $4.2bn
+  2023: 3.8% (-2.6 pt), purchased money market funds $25.2bn
+  2024: 2.9% (-0.9 pt), purchased money market funds $38.5bn
+  2025: 2.4% (-0.5 pt), purchased money market funds $48.2bn
+  2026: 2.2% (-0.2 pt), purchased money market funds $50.0bn
+  2025: client cash per account $4,895
+  2026: client cash per account $4,756
+KPI tracker, Q3 2026 starting values:
+  DCA fee yield 346 bps (Q3 2025 401); fed funds avg 367 bps
+  client cash per account $4,756
+  recruiting cost (advisor loans / recruited assets): see recruiting_unit_economics.py, four quarters since Commonwealth median 119 bps
+  advisor loan book 15.52 bps of client assets (loan_book.py)
+  organic growth 4.5% annualized in Q3 (Q3 2026 10-Q)
+2027 maturities $900m; new 2029 notes $750m at +105 bp, yield 5.919%
+buybacks since 2025: 2.24m shares for $716m, average $319.87; at $264.56 that's -17.3%, $-124m
+April 16 2027 $260 straddle mid $54.60, 20.6% of the price
+13F: 403 holders added 10.37m shares, 375 cut 10.76m; 120 new (4.94m), 77 sold out (1.72m)
+saved results/lpla_model.xlsx
+2027 net debt / EBITDA: base 2.09x; with case C's $769m give-back 2.68x (covenant max 4.0x)

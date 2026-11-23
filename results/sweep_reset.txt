@@ -1,0 +1,14 @@
+client cash revenue / adjusted pre-tax income, Q3: 72%
+implied DCA accounts at $18/month: 2.44m, average DCA balance $6,194
+LPL DCA fee yield 346 bps vs fed funds effective 367 bps: room left for the client at most ~21 bps if banks paid the full funds rate
+DCA to Merrill's 3.35%, 0.30% client rate (Dec 2025 sheet): $488m pre-tax, $4.57 a share, 15.6% of 2027 EPS
+DCA to Merrill's 3.35%, 0% client rate (worst case for my math): $536m pre-tax, $5.02 a share, 17.2% of 2027 EPS
+each $10bn of advisory ICA moved the same way: $2.86 a share
+multiple held at today's 9.04x in every case
+A: 25 bp give-back on all bank sweep: 2028 EPS $34.34 -> $310.49 (+17.4%)
+B: DCA paid Merrill's advisory rate: 2028 EPS $31.03 -> $280.55 (+6.0%)
+C: B plus $10bn of advisory ICA: 2028 EPS $28.17 -> $254.71 (-3.7%)
+D: C, and 2028 EPS only matches 2027 consensus: 2028 EPS $21.83 -> $197.39 (-25.4%)
+price that gives a 15% return if B happens: $243.95
+dividend yield 0.45%
+week of Jun 22 (MS advisory hike reported): LPLA -9.7%, MS -6.6%, SF -6.2%; Jun 26: LPLA -3.1%, MS -4.1%, SF -3.1%

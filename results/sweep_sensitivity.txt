@@ -1,0 +1,5 @@
+TTM effective tax rate: 26.0%
+floating ICA ($bn): 13.2
++25bp on floating ICA, pre-tax ($m/yr): 33, per share after tax: $0.31
+25bp give-back on all bank sweep, pre-tax ($m/yr): 134.5, per share after tax: $1.26
+ICA yield Q3 (bps): 352, Q4 guided about +20

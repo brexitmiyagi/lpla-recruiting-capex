@@ -1,0 +1,27 @@
+2024Q2: recruited $24.3bn, advisor-loan cash out $256.6m, 106 bps
+2024Q3: recruited $25.7bn, advisor-loan cash out $232.8m, 91 bps
+2024Q4: recruited $78.7bn, advisor-loan cash out $454.6m, 58 bps
+2025Q1: recruited $38.6bn, advisor-loan cash out $279.5m, 72 bps
+2025Q2: recruited $18.4bn, advisor-loan cash out $170.0m, 92 bps
+2025Q3: recruited $32.6bn, advisor-loan cash out $1116.5m, 342 bps
+2025Q4: recruited $14.5bn, advisor-loan cash out $185.8m, 128 bps
+2026Q1: recruited $17.4bn, advisor-loan cash out $206.5m, 119 bps
+2026Q2: recruited $24.9bn, advisor-loan cash out $296.4m, 119 bps
+2026Q3: recruited $24.1bn, advisor-loan cash out $258.4m, 107 bps
+TTM recruited to Q3 2026 ($bn): 80.9   prior TTM: 168.3
+prior TTM without Q4 2024 ($bn): 89.6
+trough Q4 2025 -> Q3 2026: 66%
+TTM advisor-loan cash out ($m): 947.1
+upper-bound cost per recruited dollar (bps): 117
+gross profit ROA, Q3 annualized on end assets (bps): 25.9
+simple payback (years of gross profit): 4.5
+pre-opex IRR over 10 years: 17.9%
+pre-opex IRR over 14 years: 20.5%
+NPV per recruited dollar at 10% over 14y, pre-opex (bps): 74
+bps per recruited dollar, 2024Q2-2025Q2 ex 2024Q4: 88; last four quarters: 117; change +33%
+pre-opex IRR over 14 years at the old price: 28.7%
+14-year IRR at 117 bps after a 26% tax haircut, rough: 15.2%
+before Commonwealth close: 58-106 bps, median 91; since: 107-128 bps, median 119
+gross profit ROA ex client cash: 18.7 bps
+at 91 bps, 14-year pre-opex IRR with sweep 27.7%, without sweep 18.8%
+at 119 bps, 14-year pre-opex IRR with sweep 20.1%, without sweep 12.9%

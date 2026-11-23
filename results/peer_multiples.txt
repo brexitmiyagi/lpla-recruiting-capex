@@ -1,0 +1,5 @@
+LPLA: 9.0x Dec 2027 consensus; 95% (client cash revenue / GAAP pre-tax Q3 2026)
+SCHW: 11.6x Dec 2027 consensus; 92% (net interest revenue / pre-tax Q3 2026)
+RJF: 11.0x Sep 2027 consensus; 78% (net interest income and RJBDP fees (third-party banks) / pre-tax FQ4 2026)
+AMP: 9.4x Dec 2027 consensus; 27% (Advice & Wealth Management net investment income less banking and deposit interest expense / consolidated pre-tax Q3 2026 (rough))
+LPLA on my next four quarters: 11.3x (valuation.py)

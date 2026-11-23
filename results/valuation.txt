@@ -1,0 +1,35 @@
+cost of equity 9.54% (10-year 5.04% + beta 0.9 x 5%)
+my 2027 adj EPS $24.35, 2028 $29.56; forward EPS a year out (Q4 27-Q3 28) $28.25
+today's price on my next four quarters (Q4 26-Q3 27): 11.3x, against LPLA's history median 13.56x (25th-75th pct 11.54x-15.1x)
+book value $74.22 a share
+A (25%) no change, or a token one: give-back $0m; forward EPS $28.25; at 11.54x $322.01 (+21.7%); at 13.56x $379.06 (+43.3%)
+B (35%) LPL moves to Osaic's level (0.58%): give-back $71m; forward EPS $27.53; at 11.54x $313.76 (+18.6%); at 13.56x $369.37 (+39.6%)
+C2 (25%) wirehouse level (3.35%), half won back in platform fees: give-back $769m; forward EPS $24.35; at 11.54x $277.08 (+4.7%); at 13.56x $326.27 (+23.3%)
+C (15%) wirehouse level, nothing offset: give-back $769m; forward EPS $20.46; at 11.54x $232.16 (-12.2%); at 13.56x $273.49 (+3.4%)
+probability-weighted value, no rerating (11.54x, LPLA's 25th percentile, about where it trades now): $294.41 (+11.3%); with the dividend +11.7%
+probability-weighted value if the multiple goes back to its median (13.56x): $346.64 (+31.0%)
+  weights leaning on the peer base rates (no bank, no move: 35/40/15/10): $302.98 (+14.5%)
+  bearish weights (10/30/30/30): $279.10 (+5.5%)
+buy level for a 15% total return on the no-rerating basis: $257.05
+odds on C that make today's price fair (no-rerating basis): 56%
+A minus C on that basis: $89.85 a share. The 2026 sweep-event abnormal returns add up to $81.27, but the Oct 28 move mixed in recruiting and Commonwealth news
+stress D (C plus another S&P -20%): $151.93
+residual income cross-check (cost of equity as above), probability-weighted, by long-run ROE:
+  ROE settling at 20%: $200.54 (-24.2%)
+  ROE settling at 25%: $239.16 (-9.6%)
+  ROE settling at 30%: $279.18 (+5.5%)
+  long-run ROE today's price implies (no sweep change): 28.5%; GAAP ROE on my 2028 numbers is 28%
+ICA fixed book: Q3 ICA yield 352 bps = 65% fixed + 35% floating; if floating earns what the DCA does (94% of 367 = 345 bps), fixed runs at about 356 bps, so the fixed book is priced close to today's rates and roll-offs move little either way; the 2-year at 4.76% (FRED, 19 Nov) says new fixed contracts would price higher, not lower
+cash sorting: base has cash share falling 0.1 pt in 2027 and 0.05 pt in 2028
+  if it stops falling now: 2027 $24.82, 2028 $30.88
+  a further 0.1 pt a year: 2028 EPS $27.58 (-6.7%)
+  a further 0.2 pt a year: 2028 EPS $25.60 (-13.4%)
+2027 split: client cash after tax $19.03, everything else $5.32
+  core at 12x: price implies sweep earnings changing +0.5% a year forever (10% discount rate)
+  core at 15x: price implies sweep earnings changing -0.3% a year forever (10% discount rate)
+  core at 18x: price implies sweep earnings changing -1.3% a year forever (10% discount rate)
+saved results/lpla_model.xlsx
+  DCF: FCF 2028 $1511m growing 6% to 2033 then 3%, at 10%: $193 a share
+  DCF: FCF 2028 $1511m growing 4% to 2033 then 2%, at 10%: $145 a share
+  DCF: FCF 2028 $1511m growing 6% to 2033 then 3%, at 9%: $246 a share
+rating rule: BUY needs a weighted total return of 15% and case C no worse than -10%; case C here -12.2%

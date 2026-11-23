@@ -1,0 +1,12 @@
+Q4 26: assets $2,505bn, client cash $484m, GP $1654m, adj pretax $564m, shares 77.93m, adj EPS $5.32
+Q1 27: assets $2,563bn, client cash $480m, GP $1651m, adj pretax $590m, shares 76.92m, adj EPS $5.64
+Q2 27: assets $2,622bn, client cash $486m, GP $1683m, adj pretax $631m, shares 75.93m, adj EPS $6.11
+Q3 27: assets $2,682bn, client cash $491m, GP $1715m, adj pretax $640m, shares 74.96m, adj EPS $6.28
+Q4 27: assets $2,743bn, client cash $496m, GP $1749m, adj pretax $637m, shares 74.02m, adj EPS $6.32
+Q1 28: assets $2,806bn, client cash $503m, GP $1784m, adj pretax $687m, shares 73.09m, adj EPS $6.91
+Q2 28: assets $2,871bn, client cash $511m, GP $1822m, adj pretax $729m, shares 72.18m, adj EPS $7.42
+Q3 28: assets $2,937bn, client cash $520m, GP $1861m, adj pretax $737m, shares 71.30m, adj EPS $7.59
+Q4 28: assets $3,004bn, client cash $528m, GP $1900m, adj pretax $732m, shares 70.43m, adj EPS $7.64
+2026E adj EPS: Q1-Q3 actual $17.41 + my Q4 $5.32 = $22.73 (consensus $23.52)
+my 2027 adj EPS $24.35 (consensus $29.26); 2028 $29.56 (consensus $35.60)
+client cash after tax per share: 2027 $19.03, 2028 $21.14

@@ -1,0 +1,12 @@
+rate, and share of the average fed funds rate, Q3 of each year:
+  banks paying for LPL advisory IRA cash (at least): 2024 4.25% (81%), 2025 4.31% (100%), 2026 3.76% (102%)
+  JPMorgan interest-bearing deposits: 2024 2.94% (56%), 2025 2.41% (56%), 2026 2.18% (59%)
+  Wells Fargo interest-bearing deposits: 2024 2.60% (49%), 2025 2.09% (49%), 2026 2.05% (56%)
+  Bank of America interest-bearing deposits: 2024 2.85% (54%), 2025 2.40% (56%), 2026 2.03% (55%)
+  Schwab bank deposits (mostly swept brokerage cash): 2024 1.35% (26%), 2025 0.43% (10%), 2026 0.23% (6%)
+  FDIC national 12-month CD: 2024 1.86% (35%), 2025 1.70% (39%), 2026 1.71% (47%)
+  FDIC national savings: 2024 0.46% (9%), 2025 0.39% (9%), 2026 0.38% (10%)
+  LPL advisory IRA client rate: 2024 0.25% (5%), 2025 0.30% (7%), 2026 0.30% (8%)
+Schwab's brokered CDs: weighted-average 3.95% at 30 Sep 2026, against 3.88% effective fed funds then (102%)
+so in 2026 the banks price LPL's IRA cash like wholesale funding (brokered CDs), about twice what the big banks pay on their deposits overall,
+while the client earns less than the FDIC national savings rate

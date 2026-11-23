@@ -1,0 +1,3 @@
+all tie-outs pass
+article sweep numbers reproduce
+model, valuation and capital numbers reproduce

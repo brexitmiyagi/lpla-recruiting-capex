@@ -1,0 +1,4 @@
+9M 2026: client assets from markets +5.06%, S&P 500 +11.77%, ratio 0.43
+Q3 2025: client assets from markets +4.57%, S&P 500 +7.79%, ratio 0.59
+Q3 2026: client assets from markets -1.06%, S&P 500 +2.03%, ratio -0.52
+I use 0.5: an S&P drop of 10% takes about 5% off client assets.

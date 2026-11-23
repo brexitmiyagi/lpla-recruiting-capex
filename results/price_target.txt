@@ -1,0 +1,15 @@
+LPLA P/E: 11.25x 2026, 9.04x 2027; EPS growth 26->27 24%, 27->28 22%
+SCHW: 11.60x next-year EPS, next growth 15%
+RJF: 10.97x next-year EPS, next growth 13%
+AMP: 9.39x next-year EPS, next growth 12%
+SF: 9.80x next-year EPS, next growth -1%
+peer median: 10.39x
+sweep haircut per share: $1.26
+bear 8.0x x $28.00 = $224.00 (-15.3%)
+base 9.04x x $34.34 = $310.49 (+17.4%)
+bull 10.39x x $34.34 = $356.64 (+34.8%)
+dividend yield: 0.45%
+no-growth value of 2027 EPS at 10.04% cost of equity: $291.43
+market cap $20.72bn, EV $27.99bn, EV/TTM EBITDA 9.25x
+TTM GAAP EPS $17.64, GAAP P/E 15.0x
+base with a 50 bp give-back instead: $299.10

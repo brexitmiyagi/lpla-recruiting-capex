@@ -1,0 +1,13 @@
+my base: 2027 $24.35, 2028 $29.56
++ two more Fed hikes (+50 bp), which the 2-year at 4.76% roughly prices: 2027 $25.70, 2028 $31.06
++ organic growth 4.5% (Q3's pace) not 3.5%: 2027 $26.13, 2028 $32.19
++ core G&A growth 3% not 5%: 2027 $26.55, 2028 $33.10
++ Commonwealth synergies double my ramp: 2027 $27.04, 2028 $34.13
++ market 8% a year not 6%: 2027 $27.89, 2028 $36.42
+consensus: 2027 $29.26, 2028 $35.60
+sensitivity, ICA fixed book reprices 5 bp lower each quarter: 2027 $24.05 (-1.2%)
+sensitivity, ICA fixed book reprices 5 bp higher each quarter: 2027 $24.65 (+1.2%)
+sensitivity, S&P 500 -10% (client assets -5%): 2027 $21.20 (-13.0%)
+sensitivity, S&P 500 +10% (client assets +5%): 2027 $27.51 (+13.0%)
+sensitivity, Fed -25 bp: 2027 $23.68 (-2.8%)
+sensitivity, Fed +25 bp: 2027 $25.02 (+2.8%)

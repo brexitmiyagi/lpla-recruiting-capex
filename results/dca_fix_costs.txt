@@ -1,0 +1,9 @@
+DCA revenue: Q3 2026 $131.6m ($527m a year); at today's target, $557m a year on 2.38m accounts
+after tax that's $5.42 a share, 22% of my 2027 adjusted EPS of $24.35
+cost of each fix, pre-tax $m a year and $ a share after tax (lognormal sigma 1.0 / 1.5):
+  cap LPL's fee at 1% of each account's balance: $418m-$445m, $4.07-$4.34 a share
+  cap LPL's fee at 2% of each account's balance: $319m-$378m, $3.11-$3.68 a share
+  cap LPL's fee at 3% of each account's balance: $250m-$331m, $2.43-$3.22 a share
+  cut the fee 25% for everyone: $139m, $1.36 a share
+  cut the fee 50% for everyone: $278m, $2.71 a share
+  pay DCA clients Merrill's 3.35% (DCA only): $488m, $4.75 a share

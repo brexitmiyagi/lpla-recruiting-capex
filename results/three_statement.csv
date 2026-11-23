@@ -1,0 +1,4 @@
+period,client_cash_rev,gross_profit,adj_pretax,adj_net_income,gaap_net_income,adj_eps,ebitda,cfo,capex,advisor_loans_paid,fcf,buybacks,dividends,corp_cash_end,advisor_loan_book_end,debt_end,equity_end,net_debt_to_ebitda_annualized
+2026E (Q4 only),484,1654,564,415,343,5.32,811,642,200,64,442,300,23,682,3883,7970,5832,2.25
+2027E,1953,6797,2499,1836,1548,24.35,3513,2018,800,983,1218,1200,89,611,4252,7970,6091,2.09
+2028E,2062,7367,2884,2120,1832,29.56,3944,2311,800,1076,1511,1200,85,838,4656,7970,6639,1.81
