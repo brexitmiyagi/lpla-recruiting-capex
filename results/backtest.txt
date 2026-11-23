@@ -1,0 +1,5 @@
+Q4 2025 base: gross profit $1541.6m (derived), ex-cash 0.4702 $m per $bn a quarter
+2026Q1: predicted gross profit $1549m vs actual $1593m (-2.8%); adj EPS $5.02 vs actual $5.60 (-10.3%)
+2026Q2: predicted gross profit $1612m vs actual $1618m (-0.4%); adj EPS $5.49 vs actual $5.84 (-6.0%)
+2026Q3: predicted gross profit $1687m vs actual $1662m (+1.5%); adj EPS $6.11 vs actual $5.97 (+2.3%)
+average EPS error -4.7%

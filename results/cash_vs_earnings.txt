@@ -1,0 +1,6 @@
+FY2023: loans out $594.4m, forgiveness charge $223.5m, cash ahead of P&L $370.9m, OCF $512.6m, capex $403.3m, FCF $109.3m
+FY2024: loans out $1,103.9m, forgiveness charge $292.4m, cash ahead of P&L $811.5m, OCF $277.6m, capex $562.5m, FCF $-284.9m
+FY2025: loans out $1,751.7m, forgiveness charge $430.8m, cash ahead of P&L $1,321.0m, OCF $-411.4m, capex $570.4m, FCF $-981.8m
+TTM Q3 2026: loans out $947.2m, forgiveness charge $571.3m, cash ahead of P&L $375.8m, OCF $1,774.5m, capex $766.6m, FCF $1,007.9m
+9M loans out 2026 vs 2025 ($m): 761.4 vs 1,566.0
+Q3 2025 alone, the Commonwealth close quarter ($m): 1,116.5
