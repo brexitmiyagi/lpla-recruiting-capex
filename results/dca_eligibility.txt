@@ -1,4 +1,4 @@
-Commonwealth's advisors converted to LPL's platform over 13-16 November 2026 (InvestmentNews 16 Nov, WealthManagement.com 18 Nov), so none of its accounts were in the DCA through Q3
+Commonwealth closed 1 Aug 2025 and its accounts converted in Nov 2026, but LPL says $4bn of its client cash has been in LPL's reported client cash since Q3 2025, so DCA figures from Q3 2025 likely include some of it (commonwealth_cash.py)
 LPL total accounts rose +42%; take out the Q3 2025 step when Commonwealth closed (0.9m, some of it organic) and it's about +31%, against +129% for implied DCA accounts
 eligibility wording over time:
   2023-04 DCA booklet 'As of April 2023': available only to individual retirement accounts (IRAs) subject to Section 4975 [of the IRC] in certain LPL advisory programs; ERISA plans and IRAs (including certain SEP and SIMPLE IRAs) not permitted

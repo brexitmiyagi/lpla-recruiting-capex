@@ -1,0 +1,6 @@
+2025-07-31: DCA +0.0bn, ICA -0.5bn, money market sweep -0.3bn, total -1.1bn
+2025-08-31: DCA +1.4bn, ICA +1.3bn, money market sweep +0.7bn, total +3.2bn
+2025-09-30: DCA +0.8bn, ICA +1.9bn, money market sweep +0.1bn, total +3.1bn
+July 2025, the month LPL completed Atria's conversion: DCA flat at $10.8bn
+August 2025, the month Commonwealth closed: DCA +$1.4bn, total client cash +$3.2bn
+so Commonwealth's client cash has been reported inside LPL's sweep lines, DCA included, since August 2025, well before its accounts converted in November 2026
