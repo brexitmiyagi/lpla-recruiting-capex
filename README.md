@@ -1,10 +1,10 @@
 # lpla-recruiting-capex
 
-This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "The Price Assumes Most Of The Advisory IRA Cash Fee Is Gone". Prices are the November 20, 2026 close.
+This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "More Accounts, Smaller Balances, Same Flat Fee". Prices are the November 20, 2026 close.
 
 The short version. The banks holding LPL's advisory IRA cash (the Deposit Cash Account) now pay at least the full fed funds rate for it, about 102% in Q3 2026 against about 81% in Q3 2024, while the client still gets about 0.30%. LPL takes the rest through a flat monthly fee per account set by the fed funds target, and as the average account shrank (about $8,584 to $6,346) its cut of each dollar rose from 76% to 94% of fed funds without the fee schedule changing. Valued at LPLA's own 25th-percentile forward multiple since 2017 (11.54x), four sweep outcomes weighted 25/35/25/15 give $294, 11.3% above the November 20 close, a HOLD under my rules. At the median multiple (13.56x) it's $347.
 
-Two things changed later. The Treasury curve has the Fed hiking about 80 bp by late 2027, and the DCA fee steps up with the target, so I run everything both ways: on the curve's path the value is $316, and the price assumes LPL gives up about 93% of today's fee instead of 51%. And the jump in DCA accounts (1.04m to 2.38m, against 42% for LPL overall) lines up with LPL widening the DCA from IRAs only to IRAs and retirement plan accounts, SEP and SIMPLE included, between July 2024 and October 2025. Commonwealth wasn't in it; its clients only moved to LPL's platform in November 2026.
+Later versions changed three things. LPL widened the DCA from IRAs only to IRAs and retirement plan accounts, SEP and SIMPLE included, between July 2024 and October 2025, which fits the late-2025 jump in accounts (the early-2025 rise is most likely Atria). The base case now uses the Fed path in fed funds futures (CME FedWatch, 23 Nov 2026: a December hike, about 61 bp higher on average in 2027), with the cost of equity and the multiple moved with it (9.54% to 10.09%, 11.54x to 10.85x). Higher rates lift EPS and cut the multiple by about the same, so the weighted value stays $294 and the price assumes LPL gives up 57% of the DCA fee. Without the multiple cut it's $313, still a HOLD.
 
 ## How to run it
 
@@ -113,6 +113,9 @@ multiple_history.py now also has LPLA's forward P/E on realised adjusted EPS for
 
 ## Sources
 
+Fed funds futures and meeting odds: CME FedWatch, https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html (read 23 Nov 2026)
+LPL program brochures (March 2026): https://www.lpl.com/content/dam/edam/format/disclosure/progam-brochure/A9.pdf and https://www.lpl.com/content/dam/edam/format/disclosure/progam-brochure/A11.pdf
+Atria closing: https://www.investmentnews.com/independent-broker-dealers/lpl-successfully-closes-atria-acquisition/257466
 Treasury curve, 19 Nov 2026: FRED DGS1MO, DGS3MO, DGS6MO, DGS1, DGS2, DFF (https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2 and so on)
 DCA booklet July 2024: https://lpl.com/content/dam/lpl-www/documents/disclosures/lpl_dca-disclosure-booklet.pdf
 DCA booklet October 2025: https://www.lpl.com/content/dam/edam/product/banking/dca-disclosure-booklet-banking-lending.pdf
@@ -171,9 +174,9 @@ Q3 2026 call transcript, second source: https://seekingalpha.com/article/4958241
 Morgan Stanley advisory sweep to 3.6% (balances over $250,000 per Crane Data): https://www.investmentnews.com/wirehouses/morgan-stanley-boosts-returns-on-client-cash-report/267202
 LPL DCA rate and fee sheet, 12/12/2025: https://www.lpl.com/content/dam/edam/product/banking/deposit-cash-acct-rate-fee.pdf
 
-fed_path.py backs the Fed path out of the Treasury curve on 19 November (FRED: 1-month, 3-month, 6-month, 1-year and 2-year yields, and effective fed funds) quarter by quarter, after taking a bill-to-fed-funds spread off. I couldn't get fed funds futures. The central case uses a 20 bp spread, calibrated on the 1-month bill, and it shows 10 and 30 bp too.
+fed_path.py builds the Fed path quarter by quarter from 30-day fed funds futures (data/fed_funds_futures_2026-11-23.csv, read off CME FedWatch), and cross-checks it against the Treasury bill and note curve on 19 November (FRED), after taking a bill-to-fed-funds spread off. The two agree on 2027 within a basis point. data/fedwatch_meeting_probs_2026-11-23.csv has FedWatch's meeting-by-meeting odds.
 
-market_path_value.py runs the whole valuation twice, Fed on hold and Fed on that path, and solves "what's priced" both ways. In the wirehouse cases the client rate rises with the path too, so the give-back is bigger there.
+market_path_value.py is the valuation the post uses: the futures path, with the cost of equity raised by beta times the 2027 rise in fed funds and the multiple cut to match. It also runs the futures path without that cut, the Fed on hold, and the bill-curve path, solves "what's priced" for each, prints the risk table and the quarterly estimates on the base. In the wirehouse cases the client rate rises with the path too.
 
 dca_eligibility.py lays out the DCA eligibility wording from LPL's booklets and its 10-K and 10-Qs, tests the second, lower fee table in the July 2024 booklet against the data, and works out where the banks' payment on a small account stops covering LPL's flat fee.
 
@@ -197,7 +200,7 @@ The big-down-days list is one non-Covid example. It's context, not evidence.
 
 The EPS model is mine and it's simple: assets grow with a 6% market and 3.5% organic growth, gross profit outside client cash is a fixed rate on assets, costs follow LPL's guidance and then grow 5% a year, and the Commonwealth synergy ramp is my guess. It lands about 8-9% below consensus. The split of advisory cash inside the ICA is unknown; I use half of what a proportional split would give ($9.2bn) and the script shows the range. Charging all costs to the non-sweep side is a choice, and it makes the sweep look as big as it can.
 
-The Fed path comes from bill and note yields, not futures. Bills trade off fed funds for reasons of their own, and the 2-year has a term premium in it that I don't take out, so if anything the path is a little high. The eligibility timing is from documents: I couldn't open the July 2025 booklet, so the change sits somewhere between July 2024 and October 2025. The bank list and the current fee schedule on lpl.com were blocked to me, from a fetch tool and from a browser.
+The futures only run to November 2027, so I hold 2028 at the late-2027 level. The multiple cut for rates is my choice and probably counts some of the path twice, since the 10-year already prices much of it; without it the value is $313. The eligibility timing is from documents: I couldn't open the July 2025 booklet, so the change sits somewhere between July 2024 and October 2025. The bank list and the current fee schedule on lpl.com were blocked to me, from a fetch tool and from a browser.
 
 ## Rating framework I use
 
@@ -217,9 +220,9 @@ My earlier model started from September 30 and ignored the S&P's fall since then
 
 My earlier Fed sensitivity only counted the floating part of the ICA. The DCA fee is indexed to the fed funds target, so a 25 bp move is worth about 2.8% on 2027, not 1.2%.
 
-My earlier versions held the Fed flat while the 2-year was 88 bp over fed funds. The model now takes the curve's path as a second case: 2027 EPS $25.98 instead of $24.35, weighted value $316 instead of $294.
+My earlier versions held the Fed flat while the 2-year was 88 bp over fed funds. Then I ran the curve's path without touching the multiple and got $316, which raised earnings with rates but never the discount rate. The base now uses fed funds futures and moves the cost of equity and the multiple with them: $294.
 
-Earlier versions said the acquisitions explained the jump in DCA accounts. Commonwealth wasn't on LPL's platform until November 2026, so it can't have. LPL widened who can use the DCA between July 2024 and October 2025, which fits the timing.
+Earlier versions said the acquisitions explained the jump in DCA accounts. Commonwealth wasn't on LPL's platform until November 2026, so it can't have. One version then said the eligibility change explained all of it; it fits the late-2025 jump, and the early-2025 rise is most likely Atria.
 
 Earlier versions treated the April 2023 fee table as the only one. The July 2024 booklet has a lower one. dca_eligibility.py shows why the data don't fit it.
 
@@ -227,7 +230,7 @@ Things I couldn't do: I couldn't get LPL's current DCA fee schedule or the names
 
 ## Rating log (drafts, none published)
 
-BUY $310 (consensus EPS at today's multiple), BUY $298 (my own EPS), HOLD $281 (Merrill's rate as the base case), BUY $321 (Osaic's rate as the base case), HOLD $295 (weighted cases plus the cash drain), HOLD $294 (LPLA's historical multiple, marked to the November market, litigation priced), HOLD $294 with the Fed on hold and $316 on the curve's path. The published piece is the last one.
+BUY $310 (consensus EPS at today's multiple), BUY $298 (my own EPS), HOLD $281 (Merrill's rate as the base case), BUY $321 (Osaic's rate as the base case), HOLD $295 (weighted cases plus the cash drain), HOLD $294 (LPLA's historical multiple, marked to the November market, litigation priced), HOLD $294 with the Fed on hold and $316 on the curve's path, HOLD $294 on the futures path with the multiple moved for rates. The published piece is the last one.
 
 ## Cautions on inputs
 
