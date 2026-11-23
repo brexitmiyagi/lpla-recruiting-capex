@@ -1,0 +1,22 @@
+item,value,source
+shares_issued_k,136851,Q3 2026 10-Q equity statement
+treasury_shares_k,58540,Q3 2026 10-Q equity statement
+diluted_shares_q3_k,78968,Q3 2026 release
+total_debt_m,7836,Q3 2026 release debt table
+corporate_cash_m,563,Q3 2026 release
+ttm_net_income_k,1392945,Q3 2026 release TTM reconciliation
+ttm_tax_k,489830,Q3 2026 release TTM reconciliation
+ttm_ebitda_k,3027192,Q3 2026 release TTM reconciliation
+ttm_credit_agreement_ebitda_k,3771437,Q3 2026 release
+q3_gross_profit_m,1662,Q3 2026 release
+advisory_assets_bn,1561.0,Q3 2026 release
+brokerage_assets_bn,1003.6,Q3 2026 release
+ica_balance_bn,37.8,Q3 2026 release client cash table
+dca_balance_bn,16.0,Q3 2026 release client cash table
+bank_sweep_bn,53.8,Q3 2026 release client cash table
+ica_fixed_share,0.65,Q3 2026 call (CFO: roughly 65%)
+ica_yield_bps_q3,352,Q3 2026 release
+new_notes_coupon,0.0585,424B5 17 Nov 2026 ($750m due 2029)
+dividend_annual,1.20,$0.30 quarterly (Q3 2026 release)
+ytd_buyback_shares_k,1948,Q3 2026 10-Q equity statement
+ytd_buyback_cost_k,615494,Q3 2026 10-Q equity statement

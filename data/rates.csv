@@ -1,0 +1,5 @@
+series,date,value,source
+fed_funds_upper,2026-09-17,4.00,FRED DFEDTARU
+fed_funds_lower,2026-09-17,3.75,FRED DFEDTARL
+ust_2y,2026-11-19,4.76,FRED DGS2
+ust_10y,2026-11-19,5.04,FRED DGS10

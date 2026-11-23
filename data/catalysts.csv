@@ -1,0 +1,6 @@
+date,event,what_it_changes,source
+"Dec 8-9, 2026",FOMC meeting,"Each 25 bp moves the DCA fee schedule one step ($1.25 a month per account) and my weighted value about $8 a share",federalreserve.gov FOMC calendar
+"Mid-to-late Dec 2026",LPL November monthly report,"Client cash share and DCA balance; October's came Nov 19",LPL monthly metrics
+"Late Jan 2027 (date not yet set; last year Jan 29)",LPL Q4 2026 results,"Tests the call: DCA fee yield 355-390 bps; below 350 bps without a Fed cut means LPL has started cutting its fee",LPL 8-K history on EDGAR
+"Not scheduled",Ruling on LPL's Nov 2 motion to dismiss the revived sweep complaint,"Dismissal takes $3.95 a share of expected cost out; a loss adds risk of disgorgement (up to about $16 a share)",Law360; scripts/damages.py
+"1H 2027",LPL's promised update on sweep pricing,"Decides which case we're in: no change $322, Osaic level $314, wirehouse level $232-$277",Q3 2026 earnings call

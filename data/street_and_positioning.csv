@@ -1,0 +1,33 @@
+item,value,source
+analysts,13,Nasdaq analyst ratings, pulled 23 Nov 2026
+buy,10,Nasdaq
+hold,3,Nasdaq
+sell,0,Nasdaq
+avg_price_target,366.40,Nasdaq
+low_price_target,320,Nasdaq
+high_price_target,413,Nasdaq
+short_interest_shares_2026_10_30,2422001,Nasdaq short interest (settlement 30 Oct 2026)
+days_to_cover,1.77,Nasdaq
+fees_commissions_per_advisor_k_q3_2026,507,Q3 2026 release (annualized)
+avg_assets_per_advisor_m_q3_2026,78.7,Q3 2026 release
+fees_commissions_per_advisor_k_q3_2025,442,Q3 2026 release (prior-year column)
+avg_assets_per_advisor_m_q3_2025,72.0,Q3 2026 release (prior-year column)
+osaic_secured_notes_coupon,0.0675,WealthManagement.com 9 Jan 2026 ($500M add-on due 2032)
+osaic_unsecured_notes_coupon,0.08,"8.00% Senior Notes due 2033, add-on Jan 2026 (WealthManagement.com says $250M; Latham says $325M; amount not used)"
+inst_increased_holders,403,Nasdaq institutional holdings (13F), pulled 23 Nov 2026
+inst_increased_shares,10372624,Nasdaq
+inst_decreased_holders,375,Nasdaq
+inst_decreased_shares,10760603,Nasdaq
+inst_new_holders,120,Nasdaq
+inst_new_shares,4936898,Nasdaq
+inst_soldout_holders,77,Nasdaq
+inst_soldout_shares,1722255,Nasdaq
+avg_target_2025_11_01,377.31,Nasdaq/Zacks consensus target history
+apr16_2027_260_call_bid,30.10,Nasdaq option chain 23 Nov 2026 (composite)
+apr16_2027_260_call_ask,33.40,same
+apr16_2027_260_put_bid,21.50,same
+apr16_2027_260_put_ask,24.20,same
+apr16_2027_260_open_interest_calls,1,same (thin)
+apr16_2027_260_open_interest_puts,10,same (thin)
+crane100_7day_yield,0.0376,Crane Data site header: Crane 100 Money Fund Index as of 11/22/2026
+fidelity_fcash_rate_2024_11,0.0232,InvestmentNews 26 Nov 2024 (FCASH vs 4.27% on Fidelity's government MMF)

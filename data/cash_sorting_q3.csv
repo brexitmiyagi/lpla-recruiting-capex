@@ -1,0 +1,6 @@
+year,client_cash_bn,cash_pct_of_assets,purchased_mmf_bn,client_accounts_m,source
+2022,66.8,0.064,4.2,,Q3 2022 release (EDGAR 0001397911-22-000152)
+2023,47.3,0.038,25.2,,Q3 2023 release (EDGAR 0001397911-23-000156)
+2024,45.8,0.029,38.5,,Q3 2024 release (EDGAR 0001397911-24-000136)
+2025,55.8,0.024,48.2,11.4,Q3 2025 release (EDGAR 0001628280-25-047543); accounts from Q3 2026 10-Q prior-year column
+2026,56.6,0.022,50.0,11.9,Q3 2026 release and 10-Q (EDGAR 0001628280-26-067590 / -068226)

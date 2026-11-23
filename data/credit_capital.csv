@@ -1,0 +1,17 @@
+item,value,source
+notes_2027_may_m,500,Q3 2026 10-Q Note 9: 5.700% due 5/20/2027
+notes_2027_nov_m,400,Q3 2026 10-Q Note 9: 4.625% due 11/15/2027
+term_loan_a_m,1020,Q3 2026 10-Q: SOFR+125 due 12/5/2028
+leverage_ratio_q3_2026,1.93,Q3 2026 10-Q covenant table (maximum 4.0)
+interest_coverage_q3_2026,9.34,Q3 2026 10-Q covenant table (minimum 3.0)
+new_notes_2029_m,750,FWP 16 Nov 2026 (EDGAR 0001193125-26-463863): 5.850% due 11/16/2029
+new_notes_spread_bp,105,same FWP: spread to benchmark +105 bps
+new_notes_ytm,0.05919,same FWP
+ratings,Baa3 / BBB- / BBB,same FWP: expected ratings Moody's / S&P / Fitch
+buyback_2025q1_shares,289371,XBRL TreasuryStockSharesAcquired 2025
+buyback_2025q1_cost_m,100.244,XBRL TreasuryStockValueAcquiredCostMethod 2025 Q1
+buyback_2026q2_shares,1055045,XBRL TreasuryStockSharesAcquired 1H 2026 (Q1 had none)
+buyback_2026q2_cost_m,312.074,XBRL TreasuryStockValueAcquiredCostMethod Q2 2026
+buyback_2026q3_shares,893176,Q3 2026 10-Q MD&A
+buyback_2026q3_cost_m,303.420,XBRL TreasuryStockValueAcquiredCostMethod Q3 2026
+remaining_authorization_bn,2.5,Q3 2026 10-Q

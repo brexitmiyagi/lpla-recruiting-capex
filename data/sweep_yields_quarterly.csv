@@ -1,0 +1,22 @@
+quarter,fed_funds_avg_bps,ica_fee_yield_bps,dca_fee_yield_bps,dca_end_bn,ica_end_bn,advisors,source,dca_avg_bn,dca_revenue_k
+2021Q3,9,101,24,8.6,30.5,19627,"LPL quarterly earnings release (2021-10-28, EDGAR)",,
+2021Q4,8,101,19,9.3,30.0,19876,"LPL quarterly earnings release (2022-02-03, EDGAR)",,
+2022Q1,12,102,24,9.4,32.6,20091,"LPL quarterly earnings release (2022-04-28, EDGAR)",,
+2022Q2,73,134,63,12.3,40.8,20871,"LPL quarterly earnings release (2022-08-02, EDGAR)",,
+2022Q3,219,212,157,12.7,47.7,21044,"LPL quarterly earnings release (2022-10-27, EDGAR)",,
+2022Q4,366,291,254,11.5,46.8,21275,"LPL quarterly earnings release (2023-02-02, EDGAR)",,
+2023Q1,452,320,318,10.2,39.7,21521,"LPL quarterly earnings release (2023-04-27, EDGAR)",,
+2023Q2,499,322,334,9.5,36.0,21942,"LPL quarterly earnings release (2023-07-27, EDGAR)",,
+2023Q3,526,318,357,9.1,33.6,22404,"LPL quarterly earnings release (2023-10-26, EDGAR)",,
+2023Q4,533,317,379,9.3,34.5,22660,"LPL quarterly earnings release (2024-02-01, EDGAR)",,
+2024Q1,533,323,378,9.2,32.6,22884,"LPL quarterly earnings release (2024-04-30, EDGAR)",8.9,83978
+2024Q2,533,318,399,9.2,31.0,23462,"LPL quarterly earnings release (2024-07-25, EDGAR)",9.0,89070
+2024Q3,527,332,400,9.6,32.1,23686,"LPL quarterly earnings release (2024-10-30, EDGAR)",9.2,92765
+2024Q4,466,335,340,10.7,38.3,28888,"LPL quarterly earnings release (2025-01-30, EDGAR)",9.8,83879
+2025Q1,433,337,356,10.7,36.1,29493,"LPL quarterly earnings release (2025-05-08, EDGAR)",10.2,89728
+2025Q2,433,342,381,10.8,34.2,29353,"LPL quarterly earnings release (2025-07-31, EDGAR)",10.7,101298
+2025Q3,430,351,401,13.0,36.9,32128,"LPL quarterly earnings release (2025-10-30, EDGAR)",11.8,118957
+2025Q4,390,341,359,15.3,41.0,32178,"LPL quarterly earnings release (2026-01-29, EDGAR)",13.3,119916
+2026Q1,364,336,338,15.9,39.8,32144,"LPL quarterly earnings release (2026-04-30, EDGAR)",14.6,122080
+2026Q2,363,336,341,15.6,38.4,32475,"LPL quarterly earnings release (2026-07-30, EDGAR)",14.9,126571
+2026Q3,367,352,346,16.0,37.8,32597,"LPL quarterly earnings release (2026-10-27, EDGAR)",15.1,131642

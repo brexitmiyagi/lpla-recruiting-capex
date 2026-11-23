@@ -1,0 +1,8 @@
+firm,type,owns_bank,action_2024_2026,advisory_client_rate_now,vs_crane100,new_fee,source
+Merrill Lynch (BofA),wirehouse,yes,raised advisory rates (2024); SEC penalty $25m Jan 2025,3.35% any balance (Tier 5),89%,none reported,Merrill rate sheet 11/20/2026; SEC 2025-16; WealthManagement 17 Jan 2025
+Morgan Stanley,wirehouse,yes,raised advisory sweep Q3 2024 and again June 2026,3.6% on balances over $250k (below $250k not published),96% (large balances only),none reported,InvestmentNews 16 Jul 2024 and 29 Jun 2026; Crane Data 30 Jun 2026
+Wells Fargo,wirehouse,yes,raised advisory sweep pricing late Q2 2024 (~$350m a year NII cost); SEC penalty $35m Jan 2025,not published,n/a,none reported,InvestmentNews 15 Jul 2024 and 11 Oct 2024; SEC 2025-16
+Fidelity (RIA custody),custodian,no (FCASH is a broker credit balance),moved RIA non-retirement sweep to FCASH (2025),FCASH 2.32% vs 4.27% govt MMF (Nov 2024),54% (2024),n/a,InvestmentNews 26 Nov 2024
+Osaic,independent BD,no,none found; brochure says sweep fee usually far above interest,0.48%-0.58% advisory IRA ($21/month per account),13%-15%,flat per-account fee,Osaic NFS and Pershing rate sheets Oct-Nov 2026; Osaic ADV 6 Nov 2026
+LPL Financial,independent BD,no,tiering on actual cash balances (Jul 2026) raised ICA yield; DCA fee capture rose from ~76% to ~94% of fed funds,~0.30% DCA (Dec 2025 sheet),8%,flat per-account fee ($18/month),LPL releases; DCA sheet 12/12/2025; this repo
+Raymond James / Ameriprise / Stifel / Cetera,mixed,mixed,could not verify,not published / not retrievable,n/a,n/a,their rate pages refused automated fetches

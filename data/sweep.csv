@@ -1,0 +1,34 @@
+item,value,source
+q3_client_cash_revenue_k,461471,Q3 2026 release income statement (asset-based: client cash)
+q3_adj_pretax_income_k,641119,Q3 2026 release
+q3_dca_revenue_k,131642,Q3 2026 release client cash table
+q3_dca_avg_balance_bn,15.1,Q3 2026 release
+q3_dca_yield_bps,346,Q3 2026 release
+q3_2025_dca_yield_bps,401,Q3 2026 release (prior-year column)
+dca_end_balance_bn,16.0,Q3 2026 release
+dca_client_rate,0.0030,LPL DCA rate sheet as of 12/12/2025 (latest I could retrieve)
+dca_monthly_fee_per_account,18.00,LPL DCA rate sheet as of 12/12/2025
+ms_advisory_sweep_rate,0.036,InvestmentNews 29 Jun 2026 citing Wolfe Research (raised from 2.2%)
+ms_advisory_sweep_rate_before,0.022,same
+lpla_close_2026_06_22,297.62,Nasdaq
+lpla_close_2026_06_25,277.33,Nasdaq
+lpla_close_2026_06_26,268.75,Nasdaq
+ms_close_2026_06_25,221.04,Nasdaq
+ms_close_2026_06_26,212.03,Nasdaq
+sf_close_2026_06_25,71.47,Nasdaq
+sf_close_2026_06_26,69.27,Nasdaq
+merrill_advisory_tier5_apy,0.0335,Merrill Yields at a Glance rate sheet, APY as of 11/20/2026 (Tier 5: eligible investment advisory programs and eligible retirement accounts, any balance)
+merrill_bdp_tier1_lt250k_apy,0.0001,Merrill rate sheet as of 11/20/2026 (brokerage, under $250,000)
+wells_bank_sweep_lt1m,0.0002,Wells Fargo Advisors bank deposit sweep, household assets $0-$999,999 (advisory may get higher, not published)
+fed_funds_eff_q3_avg_bps,367,LPL Q3 2026 release market drivers
+ms_close_2026_06_22,227.09,Nasdaq
+sf_close_2026_06_22,73.81,Nasdaq
+osaic_icap_rate_nfs,0.0058,Osaic NFS rate list: ICAP (investment advisory/fee-based IRAs) 0.58%, current yield as of 11/1/2026, $21.00 monthly per account
+osaic_icap_rate_pershing,0.0048,Osaic Pershing rate list: ICAP 0.48%, as of 10/16/2026, $21.00 monthly per account
+osaic_bdsp_lt25k,0.0003,Osaic NFS/Pershing BDSP tier 1 ($0-$24,999) as of 10/9/2026
+lpl_dca_range_2022_2024_low,0.0016,Vu v. LPL Financial complaint (S.D. Cal. 3:24-cv-01484, filed 8/20/2024) para 23
+lpl_dca_range_2022_2024_high,0.0035,same
+plaintiff_estimate_advisory_cash_bn,23,same complaint para 13 (an estimate, 2024)
+ms_close_2026_11_20,165.67,Nasdaq
+dca_sheet_fee_dec2025,18.00,LPL DCA Rate and Fee sheet as of 12/12/2025 (single monthly per-account fee; client rate 0.30% on any balance)
+schw_brokered_cd_weighted_rate_2026_09_30,0.0395,Charles Schwab 10-Q Q3 2026: weighted-average rate on outstanding time certificates of deposit (brokered CDs)

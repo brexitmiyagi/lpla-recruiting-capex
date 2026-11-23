@@ -1,0 +1,8 @@
+series,q3_2024,q3_2025,q3_2026,source
+fed_funds_effective_avg_pct,5.27,4.30,3.67,LPL releases (fed funds daily effective average); FRED DFF
+bac_interest_bearing_deposits_rate_pct,2.85,2.40,2.03,Bank of America 10-Q Q3 2025 and Q3 2026 average balance tables (EDGAR)
+jpm_interest_bearing_deposits_rate_pct,2.94,2.41,2.18,JPMorgan Chase 10-Q Q3 2025 and Q3 2026 average balance tables (EDGAR)
+wfc_interest_bearing_deposits_rate_pct,2.60,2.09,2.05,Wells Fargo 10-Q Q3 2025 and Q3 2026 average balance tables (EDGAR)
+schw_bank_deposits_rate_pct,1.35,0.43,0.23,Charles Schwab 10-Q Q3 2025 and Q3 2026 (bank deposits; mostly cash swept from brokerage accounts)
+fdic_national_savings_rate_pct,0.457,0.39,0.377,"FRED SNDR (FDIC national rate on non-jumbo savings), quarterly average of monthly values"
+fdic_national_12m_cd_rate_pct,1.86,1.697,1.707,FRED NDR12MCD (FDIC national rate on non-jumbo 12-month CDs)
