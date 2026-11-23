@@ -120,6 +120,8 @@ multiple_history.py now also has LPLA's forward P/E on realised adjusted EPS for
 
 ## Sources
 
+Peer sweep disclosures (read 23 Nov 2026): Baird https://www.bairdwealth.com/globalassets/pdfs/help/cash-sweep-program-disclosure.pdf ; William Blair https://www.williamblair.com/Private-Wealth-Management/Bank-Deposit-Sweep-Program/-/media/06437a9586b749579042194f7e82b55b.ashx ; Osaic eligibility https://assets.osaic.com/m/555ef91980af7999/original/Account-Eligibility-Information.pdf ; Osaic compensation disclosure https://assets.osaic.com/m/44a34b4794cc937a/original/Compensation-and-Conflict-of-Interest-Disclosure.pdf ; Osaic ICA fee table https://assets.osaic.com/m/4c6e4fa4332a3d9/original/NFS-ICAPTABLE.pdf ; Cetera Investment Services https://cetera.com/cetera-investment-services/disclosures/insured-deposit-sweep-account
+
 Fed funds futures and meeting odds: CME FedWatch, https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html (read 23 Nov 2026)
 LPL program brochures (March 2026): https://www.lpl.com/content/dam/edam/format/disclosure/progam-brochure/A9.pdf and https://www.lpl.com/content/dam/edam/format/disclosure/progam-brochure/A11.pdf
 Atria closing: https://www.investmentnews.com/independent-broker-dealers/lpl-successfully-closes-atria-acquisition/257466
@@ -198,6 +200,8 @@ adv_clients.py reads LPL's Form ADV client counts by type (Item 5D) from the SEC
 dca_widening.py also tests what balance the added accounts brought. It doesn't separate the explanations: every period's new accounts are smaller than the book, and the second wave's were the largest of the four, so I say the attribution rests on timing and documents.
 
 value_bridge.py walks from a Street-style value ($455: no sweep change, no S&P markdown, median multiple) to mine ($294) one judgement at a time, and prints the levels behind the upgrade and downgrade triggers in the post.
+
+per_account_fee_table.py compares LPL's flat per-account DCA fee with the same kind of fee at Baird, William Blair, Osaic and Cetera Investment Services at a 3.75%-4.00% funds target, and lists who lets SEP and SIMPLE IRAs into the program. Baird, William Blair and Osaic's IRA advisory program all keep them out; LPL's October 2025 booklet lets them in. The inputs, with the quoted wording and document dates, are in data/per_account_sweep_fees_2026-11-23.csv.
 
 consensus_gap.py walks my 2027 EPS on the futures path ($26.00) toward consensus ($29.26) one choice at a time. Undoing my S&P markdown is most of it.
 
