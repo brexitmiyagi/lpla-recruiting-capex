@@ -35,3 +35,18 @@ print("caveat: 'extra' depends on the trend I take out; at 2% a quarter instead 
 for t in (0.02, 0.04):
     e = acc["2026Q1"] - acc["2025Q2"] * (1 + t) ** 3
     print(f"  trend {t:.0%}: wave 2 about {e/1e6:.2f}m accounts, ${e*fee_yr*(1-tax)/shares/1e6:.2f} a share after tax")
+
+# test: what average balance did the added accounts bring? SEP and SIMPLE IRAs should be smaller than the book.
+bal = {r["quarter"]: float(r["dca_avg_bn"]) * 1e9 for r in rows("sweep_yields_quarterly.csv") if r["dca_avg_bn"]}
+def marginal(a, b, label):
+    m = (bal[b] - bal[a]) / (acc[b] - acc[a])
+    print(f"{label} ({a} to {b}): added {(acc[b]-acc[a])/1e6:.2f}m accounts and ${(bal[b]-bal[a])/1e9:.1f}bn, about ${m:,.0f} each, "
+          f"against ${bal[a]/acc[a]:,.0f} for accounts already there")
+    return m
+marginal("2024Q1", "2024Q3", "before either wave")
+marginal("2024Q3", "2025Q2", "wave 1")
+m2 = marginal("2025Q2", "2026Q1", "wave 2")
+marginal("2026Q1", "2026Q3", "since")
+print("result: in every period the added accounts are smaller than the book, and wave 2's were the LARGEST of the four,"
+      " so the balance test doesn't single out SEP/SIMPLE-sized accounts. It neither confirms nor rules out the eligibility story;"
+      " the attribution rests on the timing and the documents. (Balances also move with markets and cash sorting.)")
