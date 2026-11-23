@@ -30,6 +30,14 @@ for lab, fees in FEE.items():
     rev = sum(b * ratio * 1e9 / avg_q4 * f for b, f in zip(bals, fees))
     avg_bal = sum(bals) / 3 * ratio * 1e9
     print(f"  {lab}: Q4 DCA revenue ${rev/1e6:.1f}m (range ${rev/1e6*0.97:.0f}m-${rev/1e6*1.03:.0f}m), fee yield {rev*4/avg_bal*1e4:.0f} bps; Q3 was ${float(q['2026Q3']['dca_revenue_k'])/1000:.1f}m")
+# the call I can score: the fee yield (revenue x 4 / average balance) barely depends on how many accounts there are,
+# only on the fee and the average account size, so Commonwealth landing in the DCA moves it far less than revenue
+f_hike = sum(FEE["hike 9 Dec"]) / 3
+for share, bal_mult in ((0.0, 1.0), (0.05, 2.0), (0.05, 0.5), (0.10, 2.0)):
+    avg = avg_q4 * ((1 - share) + share * bal_mult)
+    print(f"  fee yield with the hike if {share:.0%} of the quarter's account-months are Commonwealth at {bal_mult:.1f}x LPL's average balance: {f_hike*12/avg*1e4:.0f} bps")
+print(f"  with no hike: {19.50*12/avg_q4*1e4:.0f} bps")
+print("call: Q4 2026 DCA fee yield 360-395 bps (380 central) with the 9 Dec hike FedWatch prices at 97.6%; 355-390 if the Fed holds")
 print("not in this: Commonwealth's accounts, which moved onto LPL's platform in mid-November. If its advisory IRA cash lands in the DCA, November's balance will jump.")
 print("the November balance then counts at the same average account size; if Commonwealth's accounts are bigger than LPL's, I overstate the account count and revenue")
 

@@ -14,7 +14,8 @@ print(f"LPL total accounts rose {acc0['2026Q3']/acc0['2024Q1']-1:+.0%}; take out
 print("eligibility wording over time:")
 for r in rows("dca_eligibility_timeline.csv"):
     print(f"  {r['date']} {r['document']}: {r['eligibility_wording']}")
-print("so the widening happened between the July 2024 booklet and the October 2025 one; LPL's filings changed between the Q3 2025 10-Q (3 Nov 2025) and the 2025 10-K (23 Feb 2026)")
+print("Atria closed 1 Oct 2024 and its move onto LPL's platform was 'scheduled to conclude by mid-2025' (InvestmentNews, 1 Oct 2024), which is the likeliest source of the Q1-Q2 2025 rise; I can't date it more closely")
+print("so the widening happened between the July 2024 booklet and the October 2025 one; LPL's filings changed between the Q3 2025 10-Q (3 Nov 2025) and the 2025 10-K (23 Feb 2026). It fits the late-2025 jump (+18% in Q3, +12% in Q4, +9% in Q1 2026), not the early-2025 one")
 
 # implied accounts under the two schedules
 s24 = [(float(r["fft_low_bps"]), float(r["fft_high_bps"]), float(r["lpl_monthly_fee_per_account"])) for r in rows("dca_fee_schedule_2024.csv")]
