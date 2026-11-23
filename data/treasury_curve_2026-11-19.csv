@@ -1,0 +1,10 @@
+series,maturity_yrs,yield_pct,date,source
+DGS1MO,0.0833,4.2,2026-11-19,"FRED DGS1MO (fredgraph.csv, pulled 23 Nov 2026)"
+DGS3MO,0.25,4.34,2026-11-19,"FRED DGS3MO (fredgraph.csv, pulled 23 Nov 2026)"
+DGS6MO,0.5,4.42,2026-11-19,"FRED DGS6MO (fredgraph.csv, pulled 23 Nov 2026)"
+DGS1,1.0,4.62,2026-11-19,"FRED DGS1 (fredgraph.csv, pulled 23 Nov 2026)"
+DGS2,2.0,4.76,2026-11-19,"FRED DGS2 (fredgraph.csv, pulled 23 Nov 2026)"
+DFF,0,3.88,2026-11-19,"FRED DFF (fredgraph.csv, pulled 23 Nov 2026)"
+DTB3,0.25,4.16,2026-11-19,"FRED DTB3 (fredgraph.csv, pulled 23 Nov 2026)"
+DTB6,0.5,4.31,2026-11-19,"FRED DTB6 (fredgraph.csv, pulled 23 Nov 2026)"
+DTB1YR,1.0,4.39,2026-11-19,"FRED DTB1YR (fredgraph.csv, pulled 23 Nov 2026)"
