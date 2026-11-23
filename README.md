@@ -1,6 +1,6 @@
 # lpla-recruiting-capex
 
-This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "More Accounts, Smaller Balances, Same Flat Fee". Prices are the November 20, 2026 close.
+This is the data and code behind my Seeking Alpha piece on LPL Financial (LPLA), "The Cash Fee Grew Because The Program Grew, And That's Done". Prices are the November 20, 2026 close.
 
 The short version. The banks holding LPL's advisory IRA cash (the Deposit Cash Account) now pay at least the full fed funds rate for it, about 102% in Q3 2026 against about 81% in Q3 2024, while the client still gets about 0.30%. LPL takes the rest through a flat monthly fee per account set by the fed funds target, and as the average account shrank (about $8,584 to $6,346) its cut of each dollar rose from 76% to 94% of fed funds without the fee schedule changing. Valued at LPLA's own 25th-percentile forward multiple since 2017 (11.54x), four sweep outcomes weighted 25/35/25/15 give $294, 11.3% above the November 20 close, a HOLD under my rules. At the median multiple (13.56x) it's $347.
 
@@ -41,6 +41,7 @@ Python 3, standard library only. From any folder:
     python scripts/dca_nowcast.py
     python scripts/dca_widening.py
     python scripts/consensus_gap.py
+    python scripts/value_bridge.py
     python scripts/build_workbook.py
     python scripts/event_study.py
     python scripts/options_term.py
@@ -185,6 +186,10 @@ dca_eligibility.py lays out the DCA eligibility wording from LPL's booklets and 
 dca_nowcast.py estimates Q4 2026 DCA revenue from LPL's monthly DCA balances before LPL reports. Put November and December in at the top when they come out and rerun. It backtests the same method on Q2 and Q3 2026.
 
 dca_widening.py sizes the two waves in the implied DCA account count against the run-rate since (3.3% a quarter): about 260,000 accounts in Q4 2024-Q2 2025, most likely Atria, and about 540,000 in Q3 2025-Q1 2026, which lines up with the wider eligibility. The second is worth about $126m a year before tax at $19.50 a month, $1.17 a share after tax. It also shows the answer at a 2% and 4% trend.
+
+dca_widening.py also tests what balance the added accounts brought. It doesn't separate the explanations: every period's new accounts are smaller than the book, and the second wave's were the largest of the four, so I say the attribution rests on timing and documents.
+
+value_bridge.py walks from a Street-style value ($455: no sweep change, no S&P markdown, median multiple) to mine ($294) one judgement at a time, and prints the levels behind the upgrade and downgrade triggers in the post.
 
 consensus_gap.py walks my 2027 EPS on the futures path ($26.00) toward consensus ($29.26) one choice at a time. Undoing my S&P markdown is most of it.
 
