@@ -1,4 +1,6 @@
 bill-funds spread 10 bp: change in fed funds vs today's 3.88%, by quarter (bp): Q4 26 +24, Q1 27 +46, Q2 27 +61, Q3 27 +83, Q4 27 +90, Q1 28 +85, Q2 28 +92, Q3 28 +99, Q4 28 +104
 bill-funds spread 20 bp: change in fed funds vs today's 3.88%, by quarter (bp): Q4 26 +14, Q1 27 +36, Q2 27 +51, Q3 27 +73, Q4 27 +80, Q1 28 +75, Q2 28 +82, Q3 28 +89, Q4 28 +94
 bill-funds spread 30 bp: change in fed funds vs today's 3.88%, by quarter (bp): Q4 26 +4, Q1 27 +26, Q2 27 +41, Q3 27 +63, Q4 27 +70, Q1 28 +65, Q2 28 +72, Q3 28 +79, Q4 28 +84
-central path: 2027 average +60 bp, about 2.4 hikes; 2028 average +85 bp
+fed funds futures (CME, 23 Nov): change vs 3.88% by quarter (bp): Q4 26 +14, Q1 27 +39, Q2 27 +63, Q3 27 +71, Q4 27 +71, Q1 28 +71, Q2 28 +71, Q3 28 +71, Q4 28 +71 (2028 held flat)
+futures: 2027 average +61 bp; FedWatch puts 97.6% on a 25 bp hike on 9 Dec
+bill curve cross-check, central path: 2027 average +60 bp, about 2.4 hikes; 2028 average +85 bp

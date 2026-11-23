@@ -8,7 +8,9 @@ eligibility wording over time:
   2025-10 DCA booklet October 2025: 'available to individual retirement accounts (IRAs) and retirement plan accounts that are enrolled in certain LPL advisory programs'; includes 'Simplified Employee Pension (SEP) plans, SIMPLE IRAs, and other qualified and non-qualified retirement plans'; no mention of ERISA
   2026-02-23 LPL 10-K for 2025: DCA 'for individual retirement accounts and retirement plan accounts that are enrolled in certain LPL advisory programs'
   2026-10-29 LPL 10-Q for Q3 2026: same as the 2025 10-K
-so the widening happened between the July 2024 booklet and the October 2025 one; LPL's filings changed between the Q3 2025 10-Q (3 Nov 2025) and the 2025 10-K (23 Feb 2026)
+  2026-03-31 LPL program brochures A9 (Personal Wealth Portfolios) and A11 (Model Wealth Portfolios), Item 5 and Item 9: programs available to 'pension and profit sharing plans, including plans subject to ERISA'; the DCA section in Item 9 has no carve-out for ERISA plans
+Atria closed 1 Oct 2024 and its move onto LPL's platform was 'scheduled to conclude by mid-2025' (InvestmentNews, 1 Oct 2024), which is the likeliest source of the Q1-Q2 2025 rise; I can't date it more closely
+so the widening happened between the July 2024 booklet and the October 2025 one; LPL's filings changed between the Q3 2025 10-Q (3 Nov 2025) and the 2025 10-K (23 Feb 2026). It fits the late-2025 jump (+18% in Q3, +12% in Q4, +9% in Q1 2026), not the early-2025 one
 implied accounts (m) under the April 2023 table and under the July 2024 table, with LPL's total accounts:
   2024Q1: 2023 table 1.04m, 2024 table 1.26m, LPL total 8.4m
   2024Q2: 2023 table 1.10m, 2024 table 1.33m, LPL total 8.6m

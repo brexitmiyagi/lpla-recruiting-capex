@@ -2,6 +2,12 @@ reported quarterly average / mean of month-ends: 0.980, 0.991, 0.983; I use 0.98
 Q3 average account $6,346; Q4 assumed $6,250; months known: 1 of 3
   hold: Q4 DCA revenue $143.8m (range $139m-$148m), fee yield 374 bps; Q3 was $131.6m
   hike 9 Dec: Q4 DCA revenue $145.9m (range $142m-$150m), fee yield 380 bps; Q3 was $131.6m
+  fee yield with the hike if 0% of the quarter's account-months are Commonwealth at 1.0x LPL's average balance: 380 bps
+  fee yield with the hike if 5% of the quarter's account-months are Commonwealth at 2.0x LPL's average balance: 362 bps
+  fee yield with the hike if 5% of the quarter's account-months are Commonwealth at 0.5x LPL's average balance: 390 bps
+  fee yield with the hike if 10% of the quarter's account-months are Commonwealth at 2.0x LPL's average balance: 346 bps
+  with no hike: 374 bps
+call: Q4 2026 DCA fee yield 360-395 bps (380 central) with the 9 Dec hike FedWatch prices at 97.6%; 355-390 if the Fed holds
 not in this: Commonwealth's accounts, which moved onto LPL's platform in mid-November. If its advisory IRA cash lands in the DCA, November's balance will jump.
 the November balance then counts at the same average account size; if Commonwealth's accounts are bigger than LPL's, I overstate the account count and revenue
 backtest with all three month-ends known:

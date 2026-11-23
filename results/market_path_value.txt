@@ -1,24 +1,51 @@
-Fed on hold (base): 2027 EPS $24.35, 2028 $29.56; cases at 11.54x A $322.01, B $313.76, C2 $277.08, C $232.16
-  weighted $294.41 (+11.3%, +11.7% with the dividend); at 13.56x $346.64; buy below $257.05; case C -12.2%
-  what's priced at 11.54x: give-back $286m a year pre-tax, 51% of today's DCA fee
-  what's priced at 13.56x: give-back $659m a year pre-tax, 118% of today's DCA fee
-market path, bill spread 20 bp (36+51+73+80 bp in 2027): 2027 EPS $25.98, 2028 $32.11; cases at 11.54x A $349.38, B $341.13, C2 $294.13, C $238.88
-  weighted $316.10 (+19.5%, +19.9% with the dividend); at 13.56x $372.13; buy below $275.92; case C -9.7%
-  what's priced at 11.54x: give-back $520m a year pre-tax, 93% of today's DCA fee, 81% of the $643m it would earn on this path in 2027
-  what's priced at 13.56x: give-back $894m a year pre-tax, 160% of today's DCA fee, 139% of the $643m it would earn on this path in 2027
-market path, bill spread 10 bp (46+61+83+90 bp in 2027): 2027 EPS $26.25, 2028 $32.41; cases at 11.54x A $352.73, B $344.48, C2 $296.22, C $239.70
-  weighted $318.76 (+20.5%, +20.9% with the dividend); at 13.56x $375.25; buy below $278.23; case C -9.4%
-  what's priced at 11.54x: give-back $549m a year pre-tax, 99% of today's DCA fee, 84% of the $657m it would earn on this path in 2027
-  what's priced at 13.56x: give-back $922m a year pre-tax, 166% of today's DCA fee, 140% of the $657m it would earn on this path in 2027
-market path, bill spread 30 bp (26+41+63+70 bp in 2027): 2027 EPS $25.71, 2028 $31.81; cases at 11.54x A $346.02, B $337.78, C2 $292.04, C $238.06
-  weighted $313.45 (+18.5%, +18.9% with the dividend); at 13.56x $369.01; buy below $273.61; case C -10.0%
-  what's priced at 11.54x: give-back $492m a year pre-tax, 88% of today's DCA fee, 78% of the $628m it would earn on this path in 2027
-  what's priced at 13.56x: give-back $865m a year pre-tax, 155% of today's DCA fee, 138% of the $628m it would earn on this path in 2027
-DCA fee on the central path: about $22.50 a month on average in 2027 against $19.50 now (2.4 steps of $1.25)
-the curve's path adds $+21.69 a share to the weighted value
-chart: value today at 11.54x by share of today's DCA fee given up (Fed on hold / on the curve)
-  0%: $295.06 / $320.05
-  25%: $280.21 / $305.20
-  50%: $265.37 / $290.35
-  75%: $250.52 / $275.51
-  100%: $235.68 / $260.66
+futures path (bp vs 3.88%): [14, 39, 63, 71, 71, 71, 71, 71, 71]; 2027 average +61 bp
+BASE: futures path, discount rate and multiple moved with it: cost of equity 10.09%, multiple 10.85x (median 12.62x); 2027 EPS $26.00, 2028 $31.68
+  cases: A $324.98 (+22.8%), B $317.22 (+19.9%), C2 $274.27 (+3.7%), C $223.57 (-15.5%)
+  weighted $294.37 (+11.3%, +11.7% with the dividend); at the median multiple $342.98; buy below $257.02
+  rating rule: HOLD
+  what's priced at 10.85x: give-back $318m a year pre-tax, 57% of today's DCA fee; at 12.62x 124%
+sensitivity: futures path, multiple and discount rate held: cost of equity 9.54%, multiple 11.54x (median 13.56x); 2027 EPS $26.00, 2028 $31.68
+  cases: A $345.82 (+30.7%), B $337.57 (+27.6%), C2 $291.90 (+10.3%), C $237.98 (-10.0%)
+  weighted $313.27 (+18.4%, +18.9% with the dividend); at the median multiple $368.80; buy below $273.46
+  rating rule: HOLD
+  what's priced at 11.54x: give-back $490m a year pre-tax, 88% of today's DCA fee; at 13.56x 155%
+sensitivity: Fed on hold: cost of equity 9.54%, multiple 11.54x (median 13.56x); 2027 EPS $24.35, 2028 $29.56
+  cases: A $322.01 (+21.7%), B $313.76 (+18.6%), C2 $277.08 (+4.7%), C $232.16 (-12.2%)
+  weighted $294.41 (+11.3%, +11.7% with the dividend); at the median multiple $346.64; buy below $257.05
+  rating rule: HOLD
+  what's priced at 11.54x: give-back $286m a year pre-tax, 51% of today's DCA fee; at 13.56x 118%
+cross-check: bill-curve path (20 bp spread), linked: cost of equity 10.09%, multiple 10.85x (median 12.62x); 2027 EPS $25.98, 2028 $32.11
+  cases: A $328.33 (+24.1%), B $320.57 (+21.2%), C2 $276.37 (+4.5%), C $224.41 (-15.2%)
+  weighted $297.04 (+12.3%, +12.7% with the dividend); at the median multiple $346.07; buy below $259.34
+  rating rule: HOLD
+  what's priced at 10.85x: give-back $349m a year pre-tax, 63% of today's DCA fee; at 12.62x 130%
+the futures path adds $-0.04 a share to the weighted value after the multiple hit, $+18.86 before it
+chart: value today at 10.85x on the futures path vs 11.54x with the Fed on hold, by share of today's DCA fee given up
+  0%: $295.06 / $296.28
+  25%: $280.21 / $282.39
+  50%: $265.37 / $268.50
+  75%: $250.52 / $254.61
+  100%: $235.68 / $240.72
+risk table on the base, weighted $294.37:
+  S&P 500 -10% (client assets -5%): $255.48 (-38.89 a share)
+  S&P 500 +10%: $333.27 (+38.89 a share)
+  Fed 25 bp below the futures path, all quarters: $295.44 (+1.06 a share)
+  Fed 25 bp above the futures path: $293.36 (-1.01 a share)
+  cash drain at twice my pace: $280.83 (-13.54 a share)
+  DCA fee cut 25% on top of each case: $280.99 (-13.38 a share)
+  DCA fee cut 50% on top of each case: $267.61 (-26.76 a share)
+  lawsuit dismissed: $298.32 (+3.95 a share)
+  lawsuit ends in full DCA disgorgement: $282.46 (-11.91 a share)
+  futures path without the multiple hit: $313.27 (+18.90 a share)
+quarterly estimates on the futures path:
+  Q4 26: client cash $488m, gross profit $1659m, adj pre-tax $569m, EPS $5.36 vs $6.02 (-11%)
+  Q1 27: client cash $507m, gross profit $1677m, adj pre-tax $617m, EPS $5.89 vs $6.80 (-13%)
+  Q2 27: client cash $529m, gross profit $1726m, adj pre-tax $675m, EPS $6.53 vs $7.36 (-11%)
+  Q3 27: client cash $540m, gross profit $1765m, adj pre-tax $689m, EPS $6.76 vs $7.41 (-9%)
+  Q4 27: client cash $546m, gross profit $1799m, adj pre-tax $686m, EPS $6.82 vs $7.64 (-11%)
+  2027: client cash $2122m, gross profit $6966m, adj pre-tax $2668m, EPS $26.00 vs $29.26 (-11%)
+cases on the base at both multiples:
+  A (25%): $325 at 10.85x, $379 at 12.62x
+  B (35%): $317 at 10.85x, $370 at 12.62x
+  C2 (25%): $274 at 10.85x, $320 at 12.62x
+  C (15%): $224 at 10.85x, $261 at 12.62x
