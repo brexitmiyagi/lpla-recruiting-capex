@@ -1,0 +1,9 @@
+reported quarterly average / mean of month-ends: 0.980, 0.991, 0.983; I use 0.985
+Q3 average account $6,346; Q4 assumed $6,250; months known: 1 of 3
+  hold: Q4 DCA revenue $143.8m (range $139m-$148m), fee yield 374 bps; Q3 was $131.6m
+  hike 9 Dec: Q4 DCA revenue $145.9m (range $142m-$150m), fee yield 380 bps; Q3 was $131.6m
+not in this: Commonwealth's accounts, which moved onto LPL's platform in mid-November. If its advisory IRA cash lands in the DCA, November's balance will jump.
+the November balance then counts at the same average account size; if Commonwealth's accounts are bigger than LPL's, I overstate the account count and revenue
+backtest with all three month-ends known:
+  backtest 2026Q2: estimate $125.0m, reported $126.6m (-1.2%)
+  backtest 2026Q3: estimate $132.1m, reported $131.6m (+0.3%)

@@ -1,0 +1,24 @@
+Fed on hold (base): 2027 EPS $24.35, 2028 $29.56; cases at 11.54x A $322.01, B $313.76, C2 $277.08, C $232.16
+  weighted $294.41 (+11.3%, +11.7% with the dividend); at 13.56x $346.64; buy below $257.05; case C -12.2%
+  what's priced at 11.54x: give-back $286m a year pre-tax, 51% of today's DCA fee
+  what's priced at 13.56x: give-back $659m a year pre-tax, 118% of today's DCA fee
+market path, bill spread 20 bp (36+51+73+80 bp in 2027): 2027 EPS $25.98, 2028 $32.11; cases at 11.54x A $349.38, B $341.13, C2 $294.13, C $238.88
+  weighted $316.10 (+19.5%, +19.9% with the dividend); at 13.56x $372.13; buy below $275.92; case C -9.7%
+  what's priced at 11.54x: give-back $520m a year pre-tax, 93% of today's DCA fee, 81% of the $643m it would earn on this path in 2027
+  what's priced at 13.56x: give-back $894m a year pre-tax, 160% of today's DCA fee, 139% of the $643m it would earn on this path in 2027
+market path, bill spread 10 bp (46+61+83+90 bp in 2027): 2027 EPS $26.25, 2028 $32.41; cases at 11.54x A $352.73, B $344.48, C2 $296.22, C $239.70
+  weighted $318.76 (+20.5%, +20.9% with the dividend); at 13.56x $375.25; buy below $278.23; case C -9.4%
+  what's priced at 11.54x: give-back $549m a year pre-tax, 99% of today's DCA fee, 84% of the $657m it would earn on this path in 2027
+  what's priced at 13.56x: give-back $922m a year pre-tax, 166% of today's DCA fee, 140% of the $657m it would earn on this path in 2027
+market path, bill spread 30 bp (26+41+63+70 bp in 2027): 2027 EPS $25.71, 2028 $31.81; cases at 11.54x A $346.02, B $337.78, C2 $292.04, C $238.06
+  weighted $313.45 (+18.5%, +18.9% with the dividend); at 13.56x $369.01; buy below $273.61; case C -10.0%
+  what's priced at 11.54x: give-back $492m a year pre-tax, 88% of today's DCA fee, 78% of the $628m it would earn on this path in 2027
+  what's priced at 13.56x: give-back $865m a year pre-tax, 155% of today's DCA fee, 138% of the $628m it would earn on this path in 2027
+DCA fee on the central path: about $22.50 a month on average in 2027 against $19.50 now (2.4 steps of $1.25)
+the curve's path adds $+21.69 a share to the weighted value
+chart: value today at 11.54x by share of today's DCA fee given up (Fed on hold / on the curve)
+  0%: $295.06 / $320.05
+  25%: $280.21 / $305.20
+  50%: $265.37 / $290.35
+  75%: $250.52 / $275.51
+  100%: $235.68 / $260.66

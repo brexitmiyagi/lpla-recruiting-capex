@@ -1,0 +1,37 @@
+Commonwealth's advisors converted to LPL's platform over 13-16 November 2026 (InvestmentNews 16 Nov, WealthManagement.com 18 Nov), so none of its accounts were in the DCA through Q3
+LPL total accounts rose +42%; take out the Q3 2025 step when Commonwealth closed (0.9m, some of it organic) and it's about +31%, against +129% for implied DCA accounts
+eligibility wording over time:
+  2023-04 DCA booklet 'As of April 2023': available only to individual retirement accounts (IRAs) subject to Section 4975 [of the IRC] in certain LPL advisory programs; ERISA plans and IRAs (including certain SEP and SIMPLE IRAs) not permitted
+  2024-07 DCA booklet July 2024: same IRA-only wording; 'Plans and IRAs that are subject to the Employee Retirement Income Security Act (ERISA) (including certain SEP and SIMPLE IRAs) are not permitted to use the LPL DCA program.'
+  2025-02-20 LPL 10-K for 2024: DCA 'for advisory individual retirement accounts'
+  2025-11-03 LPL 10-Q for Q3 2025: DCA 'for advisory individual retirement accounts'
+  2025-10 DCA booklet October 2025: 'available to individual retirement accounts (IRAs) and retirement plan accounts that are enrolled in certain LPL advisory programs'; includes 'Simplified Employee Pension (SEP) plans, SIMPLE IRAs, and other qualified and non-qualified retirement plans'; no mention of ERISA
+  2026-02-23 LPL 10-K for 2025: DCA 'for individual retirement accounts and retirement plan accounts that are enrolled in certain LPL advisory programs'
+  2026-10-29 LPL 10-Q for Q3 2026: same as the 2025 10-K
+so the widening happened between the July 2024 booklet and the October 2025 one; LPL's filings changed between the Q3 2025 10-Q (3 Nov 2025) and the 2025 10-K (23 Feb 2026)
+implied accounts (m) under the April 2023 table and under the July 2024 table, with LPL's total accounts:
+  2024Q1: 2023 table 1.04m, 2024 table 1.26m, LPL total 8.4m
+  2024Q2: 2023 table 1.10m, 2024 table 1.33m, LPL total 8.6m
+  2024Q3: 2023 table 1.16m, 2024 table 1.41m, LPL total 8.7m
+  2024Q4: 2023 table 1.19m, 2024 table 1.48m, LPL total 10.0m
+  2025Q1: 2023 table 1.36m, 2024 table 1.73m, LPL total 10.4m
+  2025Q2: 2023 table 1.53m, 2024 table 1.96m, LPL total 10.5m
+  2025Q3: 2023 table 1.82m, 2024 table 2.32m, LPL total 11.4m
+  2025Q4: 2023 table 2.04m, 2024 table 2.69m, LPL total 11.6m
+  2026Q1: 2023 table 2.23m, 2024 table 3.01m, LPL total 11.7m
+  2026Q2: 2023 table 2.31m, 2024 table 3.13m, LPL total 11.8m
+  2026Q3: 2023 table 2.38m, 2024 table 3.21m, LPL total 11.9m
+test: if LPL had moved to the 2024 table in Q3 2024, DCA accounts would have jumped +28% in a quarter when LPL's total accounts rose +1% and nothing was acquired. So it wasn't in force then.
+and from Q4 2023 to Q2 2024 the funds target sat at 5.25-5.50% and LPL bought nothing, yet the DCA fee yield never fell (379, 378, 399 bps); a switch to the 2024 table would have cut it about 18%
+the December 2025 rate sheet shows $18.00 at 3.50-3.75%: the 2023 table says $18.25, the 2024 table $13.50
+if the 2024 table had run from Q4 2024 to Q3 2025 and the old level came back by December, the count would have fallen -12% in Q4 2025, the quarter eligibility widened
+the data fit the 2023 table all the way through and don't fit any switch I can build. Both ends of 1.04m -> 2.38m rest on that, and I'm asking LPL to confirm
+if banks pay 100% of fed funds: an account needs $6,031 for the bank's payment to cover LPL's $234 a year, $6,536 once the client's 0.30% is paid
+if banks pay 102% of fed funds: an account needs $5,913 for the bank's payment to cover LPL's $234 a year, $6,398 once the client's 0.30% is paid
+  average balance $8,584, at today's fee and rates: the banks must pay 78% of fed funds for LPL's fee and the client's 0.30%
+  average balance $7,936, at today's fee and rates: the banks must pay 84% of fed funds for LPL's fee and the client's 0.30%
+  average balance $6,346, at today's fee and rates: the banks must pay 103% of fed funds for LPL's fee and the client's 0.30%
+  average balance $5,500, at today's fee and rates: the banks must pay 117% of fed funds for LPL's fee and the client's 0.30%
+  average balance $5,000, at today's fee and rates: the banks must pay 128% of fed funds for LPL's fee and the client's 0.30%
+the shortfall clause compares what the banks paid 'for the period' with LPL's fee 'for the same period', so it bites at the program level, not account by account
+the posted rate is 0.30% on 'Any value > $0', marked 'Rate net of all fees'. If fees were being taken out of small accounts, their net rate would be below zero, so the sheet says it isn't happening, or at least that LPL doesn't present it that way
