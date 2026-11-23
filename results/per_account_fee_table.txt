@@ -1,0 +1,17 @@
+
+average account $6,346: annual fee as % of balance and as share of the 4.00% top of the target range
+  LPL Financial                    $19.50/mo  3.69% of balance    92% of fed funds
+  Baird                            $18.00/mo  3.40% of balance    85% of fed funds
+  William Blair                    $16.50/mo  3.12% of balance    78% of fed funds
+  Osaic Wealth / Osaic Institutions $21.00/mo  3.97% of balance    99% of fed funds
+  Cetera Investment Services       $17.95/mo  3.39% of balance    85% of fed funds
+
+average account $5,000: annual fee as % of balance and as share of the 4.00% top of the target range
+  LPL Financial                    $19.50/mo  4.68% of balance   117% of fed funds
+  Baird                            $18.00/mo  4.32% of balance   108% of fed funds
+  William Blair                    $16.50/mo  3.96% of balance    99% of fed funds
+  Osaic Wealth / Osaic Institutions $21.00/mo  5.04% of balance   126% of fed funds
+  Cetera Investment Services       $17.95/mo  4.31% of balance   108% of fed funds
+
+fee range across the 5 with a printed level: $16.50-$21.00; LPL ranks 2 of 5
+SEP/SIMPLE eligible: LPL Financial=yes, Baird=no, William Blair=no, Osaic FA / Osaic FS=no, Osaic Wealth / Osaic Institutions=not checked, Cetera Investment Services=not checked
